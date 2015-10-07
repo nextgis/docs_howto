@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # NextGIS Mobile documentation build configuration file, created by
 # sphinx-quickstart on Tue Mar 24 15:25:22 2015.
@@ -245,7 +244,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'NextGISWEBHOWTO.tex', u'Документация к системе NextGIS Web HOWTO',
-   u'Артём Светлов', 'manual', 'true'),
+   u'Артём Светлов', 'howto', 'true'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
