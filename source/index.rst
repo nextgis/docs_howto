@@ -1,13 +1,7 @@
 .. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
 .. NextGIS Mobile TOC
 
-Документация по NextGIS HOWTO
-==============================
+.. include:: toc.rst
 
-Содержание:
-    
-.. toctree::
-   :maxdepth: 2
 
-   entels
 
