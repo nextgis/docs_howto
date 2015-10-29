@@ -25,7 +25,7 @@
 .. figure:: _static/sxfDownloadSample.png
    :name: sxfDownloadSample
    :align: center
-   :scale: 30 %
+   :width: 15cm
 
 
 Распакуйте их в каталог.
@@ -39,22 +39,22 @@
 .. figure:: _static/sxfQGISOpenLayerDialog.png
    :name: sxfQGISOpenLayerDialog
    :align: center
-   :scale: 30 %
+   :width: 15cm
 
 На экране появится диалог выбора слоёв из файла sxf. В этом примере мы загрузим слой железных дорог (Railway) и землепользования (landuse)
 
 .. figure:: _static/sxfQGISOpenSXFLayers.png
    :name: sxfQGISOpenSXFLayers
    :align: center
-   :scale: 30 %
+   :width: 15cm
 
-Сохраните эти два слоя в формате geojson. Для этого, выделите слой landuse в списке слоёв, нажмите правой кнопкой мыши, и в открывшемся контекстном меню выберите пункт :guilabel:`Сохранить как`.
+Сохраните эти два слоя в формате geojson. Для этого, выделите слой landuse в списке слоёв, и нажмите Нажмите :menuselection:`Слой --> Сохранить как`
 
 
 .. figure:: _static/sxfQGISSaveLayerMenu.png
    :name: sxfQGISSaveLayerMenu
    :align: center
-   :scale: 30 %
+   :width: 15cm
 
 В диалоге сохранения задайте следующие настройки:
 
@@ -65,13 +65,17 @@
 .. figure:: _static/sxfQGISSaveDialog.png
    :name: sxfQGISSaveDialog
    :align: center
-   :scale: 30 %
+   :width: 15cm
+
+   Окно экспорта слоя
 
 
 .. figure:: _static/sxfQGISSearchProjection.png
    :name: sxfQGISSearchProjection
    :align: center
-   :scale: 30 %
+   :width: 15cm
+
+   Окно поиска проекции
 
 Сохраните слои как landuse.geojson и railway.geojson.
 
@@ -79,29 +83,65 @@
 Загрузка в NextGIS Web
 ----------------------------------
 
-Откройте в браузере имеющийся у вас адрес инстанса, введите логин и пароль.
+Откройте в браузере имеющийся у вас адрес инстанса, введите логин и пароль. Вы попадёте в админку. При желании вы можете создать в ней каталог ("группу ресурсов"), что бы работать с тестовыми данными в ней. Затем нажмите :guilabel:`Векторный слой`
 
-Нажмите :guilabel:`Векторный слой`, задайте название "Землепользование".
-Перейдите на вкладку :guilabel:`Векторный слой`, нажмите на кнопку, и загрузите файл landuse.geojson.
-Нажмите на кнопку :guilabel:`Создать`.
-Нажмите :guilabel:`Стиль Mapserver`.
+.. figure:: _static/sxfNGWMainPage.png
+   :name: sxfNGWMainPage
+   :align: center
+   :width: 15cm
+
+   Главная страница админки
+
+Задайте название "Землепользование". Перейдите на вкладку :guilabel:`Векторный слой`, нажмите на кнопку :guilabel:`Выбрать`, и загрузите файл landuse.geojson, затем нажмите на кнопку :guilabel:`Создать`.
+
+
+.. figure:: _static/sxfNGWLayerUpload1.png
+   :name: sxfNGWLayerUpload1
+   :align: center
+   :width: 15cm
+
+
+.. figure:: _static/sxfNGWLayerUpload2.png
+   :name: sxfNGWLayerUpload2
+   :align: center
+   :width: 15cm
+
 
 Стилизация слоя в NextGIS Web
 ----------------------------------
 
+Сейчас вы загрузили слой в NGW, для показа на веб-карте, или раздачи по WMS к нему нужно добавить стиль. 
 
-Задайте стилю имя "Землепользование".
 Идите в :program:`NextGIS QGIS`.
+
 Зайдите в свойства слоя Landuse, который вы экспортировали. Настройте его стиль - с классификацией по полю SC_20013.
-Нажмите :menuselection:`Стиль --> Сохранить стиль --> Файлы стилей QGIS`. У вас сохранится стиль в формате qml.
-Вернитесь в браузер. Перейдите на вкладку :guilabel:`Mapserver`.
+
+.. figure:: _static/sxfQGISLayerStyleSettings.png
+   :name: sxfQGISLayerStyleSettings
+   :align: center
+   :width: 15cm
+
+Найдите снизу окна настроек слоя кнопку :menuselection:`Стиль --> Сохранить стиль --> Файлы стилей QGIS`. У вас сохранится стиль в формате qml.
+
+.. figure:: _static/sxfQGISSaveQML.png
+   :name: sxfQGISSaveQML
+   :align: center
+   :width: 15cm
+
+Вернитесь в браузер. 
+Сейчас вы находитесь в админке внутри слоя (если занудно - в окне свойств слоя), поэтому нажмите :guilabel:`Стиль Mapserver`.
+
+Задайте стилю имя "Землепользование". Перейдите на вкладку :guilabel:`Mapserver`.
+
 Нажмите кнопку  :guilabel:`Import QGIS style` (над текстовым полем). Выберите файл qml. После подтверждения, нажмите на кнопку :guilabel:`Создать`.
 
 Показ слоя на веб-карте в NextGIS Web
 ------------------------------------------
 
 Перейдите в список ресурсов, и Нажмите :guilabel:`Веб-карта`. Задайте название, и перейдите на вкладку :guilabel:`Слои`. Нажмите на кнопку :guilabel:`Добавить слой`, и выберите в списке ресурсов слои тех слоёв, что вы создали.
+
 Нажмите на кнопку :guilabel:`Создать`.
+
 Нажмите на кнопку :guilabel:`Просмотр`.
 
 После этого шага в экране браузера появится веб-карта. Включите слой. 
