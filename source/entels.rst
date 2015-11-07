@@ -138,10 +138,10 @@ GPS Coordinates
 Установите из Google Play на Android-устройство бесплатную программу :program:`GPS Coordinates` (Woozilli, Inc).
 В программе нас интересуют цифры из двух полей :guilabel:`Decimal`
 
-.. figure:: _static/android_gpx_coord.*
-   :name: osmand
+.. figure:: _static/android_gpx_coord.png
+   :name: entels_osmand_pic
    :align: center
-   :scale: 30 %
+   :width: 10 cm
 
 
 Osmand
@@ -150,10 +150,10 @@ Osmand
 Установите из Google Play на Android-устройство бесплатную программу :program:`Osmand`.
 В программе нажмите и держите палец на нужном месте карты.
 
-.. figure:: _static/osmand_01.*
-   :name: osmand
+.. figure:: _static/osmand_01.png
+   :name: entels_osmand_1_pic
    :align: center
-   :scale: 30 %
+   :width: 10 cm
 
 Высветится окно с подписанными координатами.
 
@@ -224,13 +224,13 @@ Osmand
 	sudo downloadosmtiles --longitude=35:40 --latitude=54:56 --zoom=10:11 --destdir /usr/share/nginx/osm
 
 Далее добавляем в секцию веб сервера путь до тайлов:
-sudio 
+
 .. code-block:: bash
 
 	sudo mcedit /etc/nginx/sites-available/default
 
 	    location /osm {
-		root /usr/share/nginx/;
+		   root /usr/share/nginx/;
 	    }
 
 Добавляем тайловый слой в виджет
