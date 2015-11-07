@@ -1,6 +1,6 @@
-.. sectionauthor:: Артём Светлов <@nextgis.ru>
+.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
 
-.. entels:
+.. _entels:
 
 Демо-стенд ENTELS
 =================
@@ -13,14 +13,14 @@
 В меню выберите :menuselection:`File → Import Appliance`, и в диалоге выбираем предоставленный вам файл с расширением .ova
 В главном окне :program:`Oracle VM VirtualBox` должна создаться виртуальная машина с названием Nextgisweb, как на картинке
 
-.. figure:: _static/vm_01.*
+.. figure:: _static/vm_01.png
 
 Выделяем её, и нажимаем :guilabel:`Settings` (2).
 На вкладке :guilabel:`Network` выставляем настройки как на иллюстрации:
 
-.. figure:: _static/vm_02.*
+.. figure:: _static/vm_02.png
 
-.. figure:: _static/vm_03.*
+.. figure:: _static/vm_03.png
 
 После завершения настроек запускаем виртуальную машину кнопкой :guilabel:`Start`.
 Через минуту заходим браузером по адресу http://192.168.56.5/entels - там находится инстанс NextGIS Web, и по адресу http://192.168.56.5/entels_widget/ - там находится страничка с демо-стендом.
@@ -34,13 +34,13 @@
 Заходим в интернет-браузере на адрес http://nextgis.ru/nextgis-qgis/.
 
 .. figure:: _static/qgis_download_01.png
-   :name: launch_shortcut_pic
+   :name: entels_launch_shortcut_pic
    :align: center
-   :scale: 30 %
+   :width: 15cm
 
 Нажимаем кнопку "Скачать" 
 
-.. image:: _static/qgis_download_02.*
+.. image:: _static/qgis_download_02.png
 
 Устанавливаем NextGIS как обычную программу для MS Windows.
 
@@ -66,9 +66,9 @@
 
 
 .. figure:: _static/admin_layers_create_wfs_service_layers.png
-   :name: admin_layers_create_wfs_service_layers.png
+   :name: entels_admin_layers_create_wfs_service_layers_pic
    :align: center
-   :scale: 75%
+   :width: 18cm
 
    Пример настроек WFS-сервиса для раздачи отдельных листов топокарт. 
 
@@ -93,11 +93,11 @@
 
 Заходим в меню :menuselection:`Слой --> Добавить слой --> Добавить слой WFS`
 
-.. figure:: _static/qgis_wfs_01.*
+.. figure:: _static/qgis_wfs_01.png
 
 В открывшемся окне :guilabel:`Добавить слой WFS` нажимаем кнопку :guilabel:`Создать`
 
-.. figure:: _static/qgis_wfs_02.*
+.. figure:: _static/qgis_wfs_02.png
 
 В открывшемся окне :guilabel:`Создание нового WFS-соединения` вводим параметры:
 
@@ -106,7 +106,7 @@
 #. :guilabel:`Пользователь` - при наличии
 #. :guilabel:`Адрес` - при наличии
 
-.. figure:: _static/qgis_wfs_03.*
+.. figure:: _static/qgis_wfs_03.png
 
 #. Далее выбираем созданное подключение и жмем "Подключится"
 #. Выбираем из списка необходимые слои (у нас он пока один)
@@ -121,7 +121,7 @@
 Нажимаем кнопку :guilabel:`Установить модуль`.
 Проверяем, что бы в списке посреди окна у этого модуля была установлена галочка.
 
-.. figure:: _static/qgis_qms_01.*
+.. figure:: _static/qgis_qms_01.png
 
 Модуль установлен. Нажимаем :menuselection:`Интернет --> QuickMapServices --> OSM --> OSM Mapnik`.
 Перемещаем в окне  :guilabel:`Слои` слой  :guilabel:`OSM Mapnik` вниз
@@ -165,7 +165,7 @@ Osmand
 В QGIS добавляем слой WFS (см. выше).
 В QGIS устанавливаем плагин :program:`NumericalDigitize`.
 
-.. figure:: _static/qgis_nmd_01.*
+.. figure:: _static/qgis_nmd_01.png
 
 После его установки он добавит себя в панель инструментов редактирования и будет активен, только если слой в режиме редактирования.
 
@@ -175,7 +175,7 @@ Osmand
 
 При его активации будет выведен вот такой диалог ввода координат:
 
-.. figure:: _static/qgis_nmd_02.*
+.. figure:: _static/qgis_nmd_02.png
 
 Выставляем галочку :guilabel:`Add a numerical feature` в :guilabel:`other`. Нажимаем на кнопку :guilabel:`Select`. В открывшемся окне в поле поиска вводим "4326", и выделяем систему координат WGS 84.
 
@@ -192,7 +192,7 @@ Osmand
 Запускаем программу QGIS.
 Заходим в меню :menuselection:`Слой --> Добавить слой --> Добавить слой CSV`
 
-.. figure:: _static/qgis_csv_01.*
+.. figure:: _static/qgis_csv_01.png
 
 Далее, нужно провести анализ CSV-файла. В окне :guilabel:`Создать слой из текстового файла`, изменяя параметры в группе "Разделители" нужно добиться правильного разделения таблицы по столбцам.
 
