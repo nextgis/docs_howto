@@ -12,4 +12,5 @@
    sxf
    entels
    LipetskRegEcoGIS
+   grid_vertex_extract
 
