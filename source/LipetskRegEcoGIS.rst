@@ -10,6 +10,7 @@
 ----------------------------------------------
 
 Комплекс ПО состоит из
+
 * Рабочих мест оператора с настольной ГИС NextGIS QGIS - это программа под ОС Windows, в которой работают с геоданными.
 * Серверной веб-гис NextGIS Web - это веб-сервер, который раздаёт геоданные по сети. Он может показывать геоданные на карте в браузере, изменять данные можно через веб-браузер, из NextGIS QGIS.
 
@@ -53,19 +54,19 @@
 Если у вас нет своих SHP-файлов, скачайте их для примера с http://beryllium.gis-lab.info/project/osmshp/. Если они в архиве - распакуйте их. 
 
 .. figure:: _static/LREGQGISOpenShape1.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISOpenShape1
    :align: center
    :width: 15cm
 
 
 .. figure:: _static/LREGQGISOpenShape2.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISOpenShape2
    :align: center
    :width: 15cm
 
 
 .. figure:: _static/LREGQGISOpenShape3.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISOpenShape3
    :align: center
    :width: 15cm
 
@@ -78,7 +79,7 @@
 
 
 .. figure:: _static/LREGQGISOpenShape5.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISOpenShape5
    :align: center
    :width: 15cm
 
@@ -99,7 +100,7 @@
 У векторных слоёв есть атрибуты. Их можно смотреть в таблице. 
 
 .. figure:: _static/LREGQGISAttributeTable1.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISAttributeTable1
    :align: center
    :width: 15cm
 
@@ -111,12 +112,12 @@
 
 
 .. figure:: _static/LREGQGISAttributeTable2.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISAttributeTable2
    :align: center
    :width: 15cm
 
 .. figure:: _static/LREGQGISAttributeTable3.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISAttributeTable3
    :align: center
    :width: 15cm
 
@@ -126,7 +127,7 @@
 В таблице атрибутов чаще всего используются следующие кнопки:
 
 .. figure:: _static/LREGQGISAttributeTable4.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISAttributeTable4
    :align: center
    :width: 15cm
 
@@ -155,7 +156,7 @@
 
 
 .. figure:: _static/LREGQGISAttributeTableSearch.png
-   :name: sxfQGISSearchProjection
+   :name: LREGQGISAttributeTableSearch
    :align: center
    :width: 15cm
 
@@ -179,7 +180,7 @@
 Правее - кнопка "Снять выделение".
 
 .. figure:: _static/LREGQGISSelect.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISSelect
    :align: center
    :width: 15cm
    
@@ -196,12 +197,12 @@
 Второй способ появился недавно, поэтому его нет в основной инструкции. Он удобнее.
 
 .. figure:: _static/LREGQGISCreateLayer1.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISCreateLayer1
    :align: center
    :width: 15cm
 
 .. figure:: _static/LREGQGISCreateLayer2.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISCreateLayer2
    :align: center
    :width: 15cm
 
@@ -213,7 +214,7 @@
 
 
 .. figure:: _static/LREGQGISCreateLayer3.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISCreateLayer3
    :align: center
    :width: 15cm
 
@@ -227,7 +228,7 @@
 
 
 .. figure:: _static/LREGQGISCreateLayer4.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISCreateLayer4
    :align: center
    :width: 15cm
 
@@ -246,7 +247,7 @@
 Теперь можно начинать рисовать. 
 
 .. figure:: _static/LREGQGISCreateLayer5.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISCreateLayer5
    :align: center
    :width: 15cm
 
@@ -264,12 +265,12 @@
 
 
 .. figure:: _static/LREGQGISSave2SHP1.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISSave2SHP1
    :align: center
    :width: 15cm
 
 .. figure:: _static/LREGQGISSave2SHP2.png
-   :name: LREGQGISIdentify
+   :name: LREGQGISSave2SHP2
    :align: center
    :width: 15cm
 
@@ -290,28 +291,63 @@
 
 
 .. figure:: _static/LREGNGWConnect1.png
-   :name: LREGQGISIdentify
+   :name: LREGNGWConnect1
    :align: center
    :width: 15cm
 
 .. figure:: _static/LREGNGWConnect2.png
-   :name: LREGQGISIdentify
+   :name: LREGNGWConnect2
    :align: center
    :width: 15cm
 
 .. figure:: _static/LREGNGWConnect3.png
-   :name: LREGQGISIdentify
+   :name: LREGNGWConnect3
    :align: center
    :width: 15cm
 
+Придумайте название подключения, введите адрес сервера, имя пользователя и пароль
 
+Этот модуль позволяет добавлять в QGIS векторные слои из NextGIS Web (выгружает копию слоя в формате GeoJSON, без возможности редактирования), и добавлять в QGIS wfs-сервисы из NextGIS Web.
 
 
 Просмотр дерева слоев на сервере
 ::::::::::::::::::::::::::::::::::::::::::::::
 
+Если панель выключена, то нажмите на кнопку Показать/скрыть панель NGW
+
+Выберите в списке внизу панели подключение к вашему серверу, если их несколько.
+
+В панели отобразится список ресурсов.
+
+Выделите векторный слой, и нажмите на первую кнопку севрху слева в панели NGW - Добавить как векторный слой GeoJSON 
+
+
+
+.. figure:: _static/LREGNGWConnect4.png
+   :name: LREGNGWConnect4
+   :align: center
+   :width: 15cm
+
+   Работа с модулем NGW Connect
+
+   Обратите внимание, на то, что выделен векторный слой. У него есть дочерний ресурс - это "векторный стиль", если его выделить, то на карту он не добавится.
+
+В QGIS добавится векторный слой в формате GeoJSON. Править его нельзя, его можно только смотреть, или сохранить в другой файл на диске. Оформление слоя - не передаётся.
+
 Добавление WFS слоев на карту
 ::::::::::::::::::::::::::::::::::::::::::::::
+
+В QGIS возможно редактировать векторные данные, находящиеся в NextGIS Web.
+В панели NGW видна группа под названием "Служебные". В ней находятся так называемые WFS-сервисы. 
+
+.. figure:: _static/LREGNGWConnect5.png
+   :name: LREGNGWConnect5
+   :align: center
+   :width: 15cm
+
+WFS сервис - это такой ресурс в NextGIS Web, который раздаёт данные по протоколу Web Feature Service - по нему можно редактировать векторные данные.
+В каждом WFS-сервисе находится несколько слоёв. Выберите один из WFS-сервисов из списка, и нажмите сверху в панели NGW кнопку Добавить WFS.
+У добавленных слоёв вы можете редактировать атрибуты и геометрию, и они сразу сохранятся на сервере. Редактирование осуществляется так же, как у SHP-файлов. 
 
 Редактирование слоев геоданных
 ``````````````````````````````````````````````
@@ -346,11 +382,11 @@
 
 
 После входа в административный интерфейс, пользователь попадает на главную 
-страницу, представленную на :numref:`admin_index_pic`.
+страницу, представленную на :numref:`LREGNGWadmin`.
 
 
 .. figure:: _static/admin_index.png
-   :name: admin_index_pic
+   :name: LREGNGWadmin
    :align: center
    :width: 15cm
 
@@ -358,26 +394,26 @@
 
 
 Главная страница включает в себя блок основного меню, 
-(см. :numref:`admin_index_pic` п. 1) в котором размещены следующие пункты:
+(см. :numref:`LREGNGWadmin` п. 1) в котором размещены следующие пункты:
 
 * Ресурсы
 * Панель управления
 * Кнопка входа/выхода пользователя с индикацией текущего пользователя, 
   выполнившего вход.
 
-Блок "дочерние ресурсы" (см. :numref:`admin_index_pic` п. 2) включает в себя 
+Блок "дочерние ресурсы" (см. :numref:`LREGNGWadmin` п. 2) включает в себя 
 перечень всех ресурсов, которые размещены в корневой группе. В блоке дается 
 название ресурса, владелец ресурса, а также кнопка редактирования ресурса.
 
-В блоке "Описание" (см. :numref:`admin_index_pic` п. 4) размещается описание 
+В блоке "Описание" (см. :numref:`LREGNGWadmin` п. 4) размещается описание 
 корневого слоя (при наличии описания).
 
-Блок "Права пользователя" (см. :numref:`admin_index_pic` п. 5) включает в себя 
+Блок "Права пользователя" (см. :numref:`LREGNGWadmin` п. 5) включает в себя 
 перечень прав текущего пользователя на корневую группу. Зелёная отметка 
 идентифицирует наличие соответствующего права. 
 
 
-В блоке операций (см. :numref:`admin_index_pic`. 6 и 7) имеются инструменты для 
+В блоке операций (см. :numref:`LREGNGWadmin`. 6 и 7) имеются инструменты для 
 добавления данных и выполнения операций над корневой группой.
 
 В веб-гис добавляются слои, сервисы, стили... - всё это называется ресурсами. Ресурсы могут образовывать группы (каталоги) - они тоже являются ресурсом.
@@ -390,10 +426,10 @@
 
 Группы служат для удобной организации слоев в панели управления, а также для удобного назначения прав доступа. 
 
-Для создании группы ресурсов необходимо перейти в ту группу (корневая или др.) и в панели операций выбрать :menuselection:`Создать ресурс --> Группа ресурсов`. При этом откроется окно, представленное на :numref:`admin_layers_create_group`.
+Для создании группы ресурсов необходимо перейти в ту группу (корневая или др.) и в панели операций выбрать :menuselection:`Создать ресурс --> Группа ресурсов`. При этом откроется окно, представленное на :numref:`LREGNGWadminLayersCreateGroup`.
 
 .. figure:: _static/admin_layers_create_group.png
-   :name: admin_layers_create_group
+   :name: LREGNGWadminLayersCreateGroup
    :align: center
    :scale: 75%
 
@@ -422,7 +458,7 @@
 Переключитесь с вкладки :guilabel:`Ресурс` на вкладку :guilabel:`Векторный слой`. Откроется окно, представленное на :numref:`admin_layers_create_vector_layer_resourse_description`. 
 
 .. figure:: _static/admin_layers_create_vector_layer_resourse_description.png
-   :name: admin_layers_create_vector_layer_resourse_description
+   :name: LREGNGWadminLayersCreateVectoresoursedescription
    :align: center
    :scale: 75%
 
@@ -432,7 +468,7 @@
 данные (по умолчанию имеется только WGS84 / Pseudo Mercator (EPSG:3857) ). 
 
 Далее необходимо указать сам исходный файл (кнопка Выбрать,
-см. :numref:`admin_layers_create_vector_layer_upload`).  
+см. :numref:`LREGNGWadminVectorLayerUpload`).  
 В качестве исходного файла можно загружать следующие форматы: 
 
 * ESRI Shapefile;
@@ -452,7 +488,7 @@ Cистема координат геометрий должна распозн�
 
 
 .. figure:: _static/admin_layers_create_vector_layer_upload.png
-   :name: admin_layers_create_vector_layer_upload
+   :name: LREGNGWadminVectorLayerUpload
    :align: center
    :scale: 75%
 
@@ -530,7 +566,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 В веб-интерфейсе :program:`системы ГИС ИАС экологической паспортизации МР и ГО Липецкой области` справа показывается список районов - они берутся из слоя, у которого :guilabel:`Ключ` равен :guilabel:`districts`, название берётся из поля "district".
 
 .. figure:: _static/LREGWebdistrict.png
-   :name: district
+   :name: LREGWebdistrict
    :align: center
    :width: 15cm
 
@@ -543,7 +579,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 
 
 .. figure:: _static/LREGWebStationaryPosts.png
-   :name: stationary_posts
+   :name: LREGWebStationaryPosts
    :align: center
    :width: 15cm
 
@@ -564,7 +600,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 Нажмите справа на ссылку :guilabel:`Таблица объектов`.
 
 .. figure:: _static/LREGWebAdminOpenTable.png
-   :name: stationary_posts
+   :name: LREGWebAdminOpenTable
    :align: center
    :width: 15cm
    
@@ -579,7 +615,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 
 
 .. figure:: _static/LREGWebAdminEditObject.png
-   :name: stationary_posts
+   :name: LREGWebAdminEditObject
    :align: center
    :width: 15cm
 
@@ -587,7 +623,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 
 
 .. figure:: _static/LREGWebAdminEditObjectWindow.png
-   :name: stationary_posts
+   :name: LREGWebAdminEditObjectWindow
    :align: center
    :width: 15cm
 
@@ -603,7 +639,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 Сверху, над списком слоёв, нажмите на кнопку :guilabel:`Слой`, и в меню выберите :guilabel:`Таблица объектов`
 
 .. figure:: _static/LREGWebUserOpenTable.png
-   :name: stationary_posts
+   :name: LREGWebUserOpenTable
    :align: center
    :width: 15cm
 
@@ -627,7 +663,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 
 
 .. figure:: _static/LREGWebUserOpenEditObject1.png
-   :name: stationary_posts
+   :name: LREGWebUserOpenEditObject1
    :align: center
    :width: 15cm
 
@@ -635,7 +671,7 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 
 
 .. figure:: _static/LREGWebUserOpenEditObject2.png
-   :name: stationary_posts
+   :name: LREGWebUserOpenEditObject2
    :align: center
    :width: 15cm
 
@@ -643,6 +679,6 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
 
 
 .. figure:: _static/LREGWebUserOpenEditObject3.png
-   :name: stationary_posts
+   :name: LREGWebUserOpenEditObject3
    :align: center
    :width: 15cm
