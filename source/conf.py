@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 #
 # NextGIS Mobile documentation build configuration file, created by
 # sphinx-quickstart on Tue Mar 24 15:25:22 2015.
