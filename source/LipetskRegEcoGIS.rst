@@ -714,3 +714,5 @@ http://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html
    :name: LREGWebUserOpenEditObject3
    :align: center
    :width: 15cm
+
+После нажатия кнопки "Сохранить" пользователи при пользовании инструментом идентификации будут видеть уже новые данные.
