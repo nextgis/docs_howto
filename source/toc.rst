@@ -12,5 +12,5 @@
    sxf
    entels
    LipetskRegEcoGIS
+   barnaul
    grid_vertex_extract
-
