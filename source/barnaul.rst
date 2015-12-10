@@ -11,9 +11,9 @@
 Модификация заключается в создании специального модуля, вынесенного
 в отдельную панель:
 
-   .. figure:: _static/barnaul-01.png
-      :name: barnaul-toolbar
-      :align: center
+.. figure:: _static/barnaul-01.png
+  :name: barnaul-toolbar
+  :align: center
 
 Если панель отсутствует, то нажмите на панели инструментов правой
 кнопкой мыши и выберите *Уместить панели инструментов*,
