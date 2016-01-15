@@ -55,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NextGIS HOWTO'
-copyright = u'2015, NextGIS'
+copyright = u'2015-2016, NextGIS'
 author = u'Артём Светлов'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -63,7 +63,7 @@ author = u'Артём Светлов'
 # built documents.
 #
 # The short X.Y version.
-version = '2.2.0'
+version = '2.2.5'
 # The full version, including alpha/beta/rc tags.
 release = '2.2'
 
@@ -216,7 +216,7 @@ html_search_language = 'ru'
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'nextgismobiledoc'
+htmlhelp_basename = 'nextgishowto'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -231,9 +231,27 @@ latex_elements = {
 
 'babel' : '\\usepackage[russian]{babel}',
 
-'fontpkg': '\\usepackage{dejavu}',
+'fontpkg': '''
+\usepackage{dejavu}
+\usepackage{pmboxdraw}
+''',
 # Additional stuff for the LaTeX preamble.
 #'preamble': 'latex_preamble'
+'utf8extra': r'''
+\ProvidesFile{ix-utf8enc.dfu}%
+\DeclareUnicodeCharacter{00A0}{\nobreakspace}
+\DeclareUnicodeCharacter{2196}{\ensuremath{\nwarrow}}
+\DeclareUnicodeCharacter{2197}{\ensuremath{\nearrow}}
+\DeclareUnicodeCharacter{2198}{\ensuremath{\searrow}}
+\DeclareUnicodeCharacter{2199}{\ensuremath{\swarrow}}
+\DeclareUnicodeCharacter{2190}{\ensuremath{\leftarrow}}
+\DeclareUnicodeCharacter{2191}{\ensuremath{\uparrow}}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{2193}{\ensuremath{\downarrow}}
+\DeclareUnicodeCharacter{2500}{\textSFx}
+\DeclareUnicodeCharacter{2514}{\textSFii}
+\DeclareUnicodeCharacter{251C}{\textSFviii}
+''',
 
 # Latex figure (float) alignment
 'figure_align': 'htbp'

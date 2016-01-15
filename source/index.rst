@@ -1,5 +1,5 @@
 .. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
-.. NextGIS Mobile TOC
+.. NextGIS HOWTO TOC
 
 .. include:: toc.rst
 
