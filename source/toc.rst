@@ -15,3 +15,4 @@
    barnaul
    grid_vertex_extract
    pt-zapovednik
+   topo_georef
