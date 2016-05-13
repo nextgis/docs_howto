@@ -10,9 +10,12 @@ nextgisweb_tinymap
 
 nextgisweb_tinymap - это несложный картодвижок на основе LeafletJS, который можете разместить на своём веб-сайте, чтобы показывать в нём векторный слой из NextGIS WEB. Слой добавляется в LeafletJS как GeoJSONLayer, в нём работает идентификация, показ названий и фотографий.
 
- 
+ .. figure:: _static/NextgiswebTinymapMain.png
+   :name: NextgiswebTinymapMain
+   :align: center
 
-[s]Live demo: http://nextgis.github.io/nextgisweb_tinymap/[s] Не работает, нет сервера
+
+Демонстрация: http://nextgis.github.io/nextgisweb_tinymap/
 
 
 Реализованные возможности
