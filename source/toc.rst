@@ -17,3 +17,4 @@
    pt-zapovednik
    topo_georef
    relief
+   nextgisweb_tinymap
