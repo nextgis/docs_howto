@@ -1,7 +1,7 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 .. HowTo's TOC
 
-Описание применения
+Use cases
 ===================
 
 Содержание:
