@@ -68,7 +68,7 @@
    :align: center
    :width: 15cm
 
-   Окно экспорта слоя
+   Окно экспорта слоя.
 
 
 .. figure:: _static/sxfQGISSearchProjection.png
@@ -76,7 +76,7 @@
    :align: center
    :width: 15cm
 
-   Окно поиска проекции
+   Окно поиска проекции.
 
 Сохраните слои как landuse.geojson и railway.geojson.
 
@@ -102,7 +102,7 @@
    :align: center
    :width: 15cm
 
-   Главная страница админки
+   Главная страница админки.
 
 Задайте название "Землепользование". Перейдите на вкладку :guilabel:`Векторный слой`, нажмите на кнопку :guilabel:`Выбрать`, и загрузите файл landuse.geojson, затем нажмите на кнопку :guilabel:`Создать`.
 
