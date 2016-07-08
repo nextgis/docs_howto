@@ -11,7 +11,7 @@
 Демонстрационный стенд представляет собой виртуальную машину - файл .ova, который открывается в :program:`VirtualBox`.
 Устанавливаем и запускаем :program:`VirtualBox`.
 В меню выберите :menuselection:`File --> Import Appliance`, и в диалоге выбираем предоставленный вам файл с расширением .ova
-В главном окне :program:`Oracle VM VirtualBox` должна создаться виртуальная машина с названием Nextgisweb, как на картинке
+В главном окне :program:`Oracle VM VirtualBox` должна создаться виртуальная машина с названием NextGIS Web, как на картинке
 
 .. figure:: _static/vm_01.png
 
@@ -248,7 +248,7 @@ Osmand
 
 
 
-в заголовке некстгисмобайл, нужно системе NextGIS Web Entels.
+в заголовке NextGIS Mobile, нужно системе NextGIS Web Entels.
 
 
 

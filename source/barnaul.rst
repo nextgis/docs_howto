@@ -32,7 +32,7 @@
    следует указать здесь: :menuselection:`Инструменты --> Параметры --> Сеть`:
 
    .. figure:: _static/barnaul-network.png
-      :name: proxy
+      :name: barnaul-proxy
       :align: center
 
 3. В левой панели выберите :menuselection:`Подключение к веб-сервисам --> Создать --> Подключение к NGW`.
@@ -40,7 +40,7 @@
    URL веб-портала, логин и пароль администратора портала.
 
    .. figure:: _static/barnaul-02.png
-      :name: create_new_connection
+      :name: barnaul-create_new_connection
       :align: center
 
 5. Нажмите кнопку *Проверить подключение*, появится окно, отображающее
@@ -48,19 +48,19 @@
    образом:
 
    .. figure:: _static/barnaul-03.png
-      :name: check_connection
+      :name: barnaul-check_connection
       :align: center
 
    Если окно выглядит по-другому, например, так:
 
    .. figure:: _static/barnaul-04.png
-      :name: guest_connection
+      :name: barnaul-guest_connection
       :align: center
 
    или так:
 
    .. figure:: _static/barnaul-05.png
-      :name: fail_connection
+      :name: barnaul-fail_connection
       :align: center
 
    то это означает, что вы неправильно задали параметры подключения.
@@ -76,13 +76,13 @@
 должно отобразиться дерево ресурсов, доступных на портале:
 
 .. figure:: _static/barnaul-06.png
-   :name: resource-root
+   :name: barnaul-resource-root
    :align: center
 
    Выбран корневой ресурс *Ресурсы* (создание).
 
 .. figure:: _static/barnaul-07.png
-   :name: resource-select
+   :name: barnaul-resource-select
    :align: center
 
    Выбран ресурс *Территориальные зоны* (обновление).
@@ -100,13 +100,13 @@
    оставляем отключенным, после чего нажмите *OK*:
 
    .. figure:: _static/barnaul-08.png
-      :name: load-mid-mif-csv
+      :name: barnaul-load-mid-mif-csv
       :align: center
 
 4. Запустится процесс преобразования геометрий:
 
    .. figure:: _static/barnaul-09.png
-      :name: multigeometry
+      :name: barnaul-multigeometry
       :align: center
 
    и собственно сам процесс загрузки данных. В конце должно появиться
@@ -114,7 +114,7 @@
    загрузки:
 
    .. figure:: _static/barnaul-10.png
-      :name: upload-final
+      :name: barnaul-upload-final
       :align: center
 
 
@@ -129,7 +129,7 @@
    оставляем отключенным, после чего нажмите *OK*:
 
    .. figure:: _static/barnaul-11.png
-      :name: load-mid-mif
+      :name: barnaul-load-mid-mif
       :align: center
 
 
@@ -141,7 +141,7 @@
 3. Дальнейшие действия аналогичны рассмотренным в разделе `Загрузка нового слоя из MIF/MID + CSV`_:
 
    .. figure:: _static/barnaul-12.png
-      :name: update-mid-mif-csv
+      :name: barnaul-update-mid-mif-csv
       :align: center
 
 
@@ -153,7 +153,7 @@
 3. Дальнейшие действия аналогичны рассмотренным в разделе `Загрузка нового слоя из MIF/MID (без CSV)`_:
 
    .. figure:: _static/barnaul-13.png
-      :name: update-mid-mif
+      :name: barnaul-update-mid-mif
       :align: center
 
 

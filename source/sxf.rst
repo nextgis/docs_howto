@@ -8,19 +8,21 @@
 Введение
 ----------------------------
 
-В этой инструкции мы возьмём геоданные в формате sxf, загрузим их в NextGIS Web, настроим их стиль отображения, и отобразим их на веб-карте. 
+В этой инструкции мы возьмём геоданные в формате sxf, загрузим их в NextGIS Web, 
+настроим их стиль отображения, и отобразим их на веб-карте. 
 Для работы потребуется:
 
 
 #. Набор данных в формате sxf - скачайте выгрузку из Openstreetmap на странице http://www.gisinfo.ru/price/price_map.htm
 #. :program:`NextGIS QGIS`.
-#. Доступ к инстансу :program:`NextGISWEB`. - у вас должен быть его URL, логин и пароль.
+#. Доступ к инстансу :program:`NextGIS Web`. - у вас должен быть его URL, логин и пароль.
 
 
 Подготовка sxf к загрузке
 ----------------------------
 
-Скачайте на странице http://www.gisinfo.ru/price/price_map.htm выгрузку данных OpenStreetMap на любой интересующий вас регион.
+Скачайте на странице http://www.gisinfo.ru/price/price_map.htm выгрузку данных OpenStreetMap 
+на любой интересующий вас регион.
 
 .. figure:: _static/sxfDownloadSample.png
    :name: sxfDownloadSample
@@ -29,7 +31,7 @@
 
 
 Распакуйте их в каталог.
-Поскольку :program:`NextGISWEB` сейчас поддерживает импорт только из форматов ESRI Shapefile и geojson, то нам нужно сконвертировать sxf в geojson. 
+Поскольку :program:`NextGIS Web` сейчас поддерживает импорт только из форматов ESRI Shapefile и geojson, то нам нужно сконвертировать sxf в geojson. 
 
 Запустите :program:`NextGIS QGIS`.
 
