@@ -12,7 +12,7 @@
 в отдельную панель:
 
 .. figure:: _static/barnaul-01.png
-  :name: barnaul-toolbar
+  :name: howto_barnaul-toolbar
   :align: center
 
 Если панель отсутствует, то нажмите на панели инструментов правой
@@ -32,7 +32,7 @@
    следует указать здесь: :menuselection:`Инструменты --> Параметры --> Сеть`:
 
    .. figure:: _static/barnaul-network.png
-      :name: barnaul-proxy
+      :name: howto_barnaul-proxy
       :align: center
 
 3. В левой панели выберите :menuselection:`Подключение к веб-сервисам --> Создать --> Подключение к NGW`.
@@ -40,7 +40,7 @@
    URL веб-портала, логин и пароль администратора портала.
 
    .. figure:: _static/barnaul-02.png
-      :name: barnaul-create_new_connection
+      :name: howto_barnaul-create_new_connection
       :align: center
 
 5. Нажмите кнопку *Проверить подключение*, появится окно, отображающее
@@ -48,19 +48,19 @@
    образом:
 
    .. figure:: _static/barnaul-03.png
-      :name: barnaul-check_connection
+      :name: howto_barnaul-check_connection
       :align: center
 
    Если окно выглядит по-другому, например, так:
 
    .. figure:: _static/barnaul-04.png
-      :name: barnaul-guest_connection
+      :name: howto_barnaul-guest_connection
       :align: center
 
    или так:
 
    .. figure:: _static/barnaul-05.png
-      :name: barnaul-fail_connection
+      :name: howto_barnaul-fail_connection
       :align: center
 
    то это означает, что вы неправильно задали параметры подключения.
@@ -76,13 +76,13 @@
 должно отобразиться дерево ресурсов, доступных на портале:
 
 .. figure:: _static/barnaul-06.png
-   :name: barnaul-resource-root
+   :name: howto_barnaul-resource-root
    :align: center
 
    Выбран корневой ресурс *Ресурсы* (создание).
 
 .. figure:: _static/barnaul-07.png
-   :name: barnaul-resource-select
+   :name: howto_barnaul-resource-select
    :align: center
 
    Выбран ресурс *Территориальные зоны* (обновление).
@@ -91,7 +91,7 @@
 Загрузка нового слоя из MIF/MID + CSV
 -------------------------------------
 
-1. В дереве ресурсов выберите корневой ресурс *Ресурсы* (см. :numref:`barnaul-resource-root`).
+1. В дереве ресурсов выберите корневой ресурс *Ресурсы* (см. :numref:`howto_barnaul-resource-root`).
 2. Нажмите кнопку |arrow_join|.
 3. В открывшемся окне укажите: MIF-файл, CSV-файл,
    поле для связи в MIF-файле, поле для связи в CSV-файле,
@@ -100,13 +100,13 @@
    оставляем отключенным, после чего нажмите *OK*:
 
    .. figure:: _static/barnaul-08.png
-      :name: barnaul-load-mid-mif-csv
+      :name: howto_barnaul-load-mid-mif-csv
       :align: center
 
 4. Запустится процесс преобразования геометрий:
 
    .. figure:: _static/barnaul-09.png
-      :name: barnaul-multigeometry
+      :name: howto_barnaul-multigeometry
       :align: center
 
    и собственно сам процесс загрузки данных. В конце должно появиться
@@ -114,14 +114,14 @@
    загрузки:
 
    .. figure:: _static/barnaul-10.png
-      :name: barnaul-upload-final
+      :name: howto_barnaul-upload-final
       :align: center
 
 
 Загрузка нового слоя из MIF/MID (без CSV)
 -----------------------------------------
 
-1. В дереве ресурсов выберите корневой ресурс *Ресурсы* (см. :numref:`barnaul-resource-root`).
+1. В дереве ресурсов выберите корневой ресурс *Ресурсы* (см. :numref:`howto_barnaul-resource-root`).
 2. Нажмите кнопку |arrow|.
 3. В открывшемся окне укажите MIF-файл, тип геометрии (в скобках
    указано количество объектов выбранного типа), имя выходного слоя,
@@ -136,7 +136,7 @@
 Обновление существующего слоя из MIF/MID + CSV
 ----------------------------------------------
 
-1. В дереве ресурсов выберите ресурс, который желаете обновить (см. :numref:`barnaul-resource-select`).
+1. В дереве ресурсов выберите ресурс, который желаете обновить (см. :numref:`howto_barnaul-resource-select`).
 2. Нажмите кнопку |arrow_circle|.
 3. Дальнейшие действия аналогичны рассмотренным в разделе `Загрузка нового слоя из MIF/MID + CSV`_:
 
@@ -148,7 +148,7 @@
 Обновление существующего слоя из MIF/MID (без CSV)
 --------------------------------------------------
 
-1. В дереве ресурсов выберите ресурс, который желаете обновить (см. :numref:`barnaul-resource-select`).
+1. В дереве ресурсов выберите ресурс, который желаете обновить (см. :numref:`howto_barnaul-resource-select`).
 2. Нажмите кнопку |arrow|.
 3. Дальнейшие действия аналогичны рассмотренным в разделе `Загрузка нового слоя из MIF/MID (без CSV)`_:
 
