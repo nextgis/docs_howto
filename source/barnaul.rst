@@ -129,7 +129,7 @@
    оставляем отключенным, после чего нажмите *OK*:
 
    .. figure:: _static/barnaul-11.png
-      :name: barnaul-load-mid-mif
+      :name: howto_barnaul-load-mid-mif
       :align: center
 
 
@@ -141,7 +141,7 @@
 3. Дальнейшие действия аналогичны рассмотренным в разделе `Загрузка нового слоя из MIF/MID + CSV`_:
 
    .. figure:: _static/barnaul-12.png
-      :name: barnaul-update-mid-mif-csv
+      :name: howto_barnaul-update-mid-mif-csv
       :align: center
 
 
@@ -153,7 +153,7 @@
 3. Дальнейшие действия аналогичны рассмотренным в разделе `Загрузка нового слоя из MIF/MID (без CSV)`_:
 
    .. figure:: _static/barnaul-13.png
-      :name: barnaul-update-mid-mif
+      :name: howto_barnaul-update-mid-mif
       :align: center
 
 
