@@ -25,7 +25,7 @@
 на любой интересующий вас регион.
 
 .. figure:: _static/sxfDownloadSample.png
-   :name: sxfDownloadSample
+   :name: howto_sxfDownloadSample
    :align: center
    :width: 15cm
 
@@ -39,14 +39,14 @@
 
 
 .. figure:: _static/sxfQGISOpenLayerDialog.png
-   :name: sxfQGISOpenLayerDialog
+   :name: howto_sxfQGISOpenLayerDialog
    :align: center
    :width: 15cm
 
 На экране появится диалог выбора слоёв из файла sxf. В этом примере мы загрузим слой железных дорог (Railway) и землепользования (landuse)
 
 .. figure:: _static/sxfQGISOpenSXFLayers.png
-   :name: sxfQGISOpenSXFLayers
+   :name: howto_sxfQGISOpenSXFLayers
    :align: center
    :width: 15cm
 
@@ -54,19 +54,19 @@
 
 
 .. figure:: _static/sxfQGISSaveLayerMenu.png
-   :name: sxfQGISSaveLayerMenu
+   :name: howto_sxfQGISSaveLayerMenu
    :align: center
    :width: 15cm
 
 В диалоге сохранения задайте следующие настройки:
 
-#. Формат - geojson
+#. Формат - geojson.
 #. Система координат - EPSG:4326. Если её не будет в предложенном списке (такое бывает при первом запуске программы), то нажмите на кнопочку рядом, и в окне поиска введите "4326".
 #. Кодировка - если вы работаете под ОС :program:`Windows`, то выставьте UTF-8. Если вы работаете под ОС :program:`GNU/Linux`, то оставьте в нём System, по умолчанию.
 
 
 .. figure:: _static/sxfQGISSaveDialog.png
-   :name: sxfQGISSaveDialog
+   :name: howto_sxfQGISSaveDialog
    :align: center
    :width: 15cm
 
@@ -74,7 +74,7 @@
 
 
 .. figure:: _static/sxfQGISSearchProjection.png
-   :name: sxfQGISSearchProjection
+   :name: howto_sxfQGISSearchProjection
    :align: center
    :width: 15cm
 
@@ -91,16 +91,18 @@
 
 Для того, что бы написать логичный картостиль, нужно преобразовать числа в целочисленный тип.
 
-Эту операцию можно сделать разными способами: в NextGIS QGIS используя калькулятор полей и создание новых слоёв, либо в текстовом редакторе удалить из geojson автозаменой все включения ".000000".
+Эту операцию можно сделать разными способами: 
+в NextGIS QGIS используя калькулятор полей и создание новых слоёв, 
+либо в текстовом редакторе удалить из geojson автозаменой все включения ".000000".
 
 
 Загрузка в NextGIS Web
 ----------------------------------
 
-Откройте в браузере имеющийся у вас адрес инстанса, введите логин и пароль. Вы попадёте в админку. При желании вы можете создать в ней каталог ("группу ресурсов"), что бы работать с тестовыми данными в ней. Затем нажмите :guilabel:`Векторный слой`
+Откройте в браузере имеющийся у вас адрес инстанса, введите логин и пароль. Вы попадёте в админку. При желании вы можете создать в ней каталог ("группу ресурсов"), чтобы работать с тестовыми данными в ней. Затем нажмите :guilabel:`Векторный слой`
 
 .. figure:: _static/sxfNGWMainPage.png
-   :name: sxfNGWMainPage
+   :name: howto_sxfNGWMainPage
    :align: center
    :width: 15cm
 
@@ -110,13 +112,13 @@
 
 
 .. figure:: _static/sxfNGWLayerUpload1.png
-   :name: sxfNGWLayerUpload1
+   :name: howto_sxfNGWLayerUpload1
    :align: center
    :width: 15cm
 
 
 .. figure:: _static/sxfNGWLayerUpload2.png
-   :name: sxfNGWLayerUpload2
+   :name: howto_sxfNGWLayerUpload2
    :align: center
    :width: 15cm
 
@@ -131,14 +133,14 @@
 Зайдите в свойства слоя Landuse, который вы экспортировали. Настройте его стиль - с классификацией по полю SC_20013.
 
 .. figure:: _static/sxfQGISLayerStyleSettings.png
-   :name: sxfQGISLayerStyleSettings
+   :name: howto_sxfQGISLayerStyleSettings
    :align: center
    :width: 15cm
 
 Найдите снизу окна настроек слоя кнопку :menuselection:`Стиль --> Сохранить стиль --> Файлы стилей QGIS`. У вас сохранится стиль в формате qml.
 
 .. figure:: _static/sxfQGISSaveQML.png
-   :name: sxfQGISSaveQML
+   :name: howto_sxfQGISSaveQML
    :align: center
    :width: 15cm
 
