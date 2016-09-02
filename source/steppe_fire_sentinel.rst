@@ -46,7 +46,7 @@
    Установка области для поиска данных.
 
 Переключиться на закладку :guilabel:`Data Sets` (наборы данных) и выбрать в 
-группе :guilabel:`Digital Elevation` - :guilabel:`ASTER GLOBAL DEM`.
+группе :guilabel:`Sentinel` - :guilabel:`Sentinel-2`.
 
 .. figure:: _static/reliefEarthExplorer02.png
    :name: howto_reliefEarthExplorer02
