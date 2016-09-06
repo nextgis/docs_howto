@@ -56,7 +56,7 @@ IMPORTANT: The USGS Sentinel-2 archive is a partial representation of all availa
 группе :guilabel:`Sentinel` - :guilabel:`Sentinel-2`.
 
 .. figure:: _static/sentinelEarthExplorer02.png
-   :name: howto_sentinelEarthExplorer02.png
+   :name: howto_sentinelEarthExplorer02
    :align: center
    :width: 15cm
 
@@ -66,7 +66,7 @@ IMPORTANT: The USGS Sentinel-2 archive is a partial representation of all availa
 Для перехода к просмотру данных необходимо нажать кнопку **Results**.
 
 .. figure:: _static/sentinelEarthExplorer03.png
-   :name: howto_sentinelEarthExplorer03.png
+   :name: howto_sentinelEarthExplorer03
    :align: center
    :width: 15cm
    
@@ -78,7 +78,7 @@ IMPORTANT: The USGS Sentinel-2 archive is a partial representation of all availa
 
 
 .. figure:: _static/sentinelEarthExplorer04.png
-   :name: howto_sentinelEarthExplorer04.png
+   :name: howto_sentinelEarthExplorer04
    :align: center
    :width: 15cm
    
@@ -98,8 +98,21 @@ Earth Ezplorer существует ошибка: при возврате со �
 * Если вы скачали снимок со спутника Landsat-8, то откройте в QGIS растровый файл из архива, который оканчивается на _B8.tif
 * Если вы скачали снимок со спутника Sentinel-2B, то откройте в QGIS растровый файл из архива, который лежит в нём по адресу /GRANULE.../IMG_DATA/ и оканчивается на _B03.JP2
 
+Настройте контрастность картинки. Для этого
+1. Передвиньте карту на то место, где видны следы пожара.
+2. Выделите слой с космоснимком в списке слоёв.
+3. В контекстном меню слоя Свойства --> Стиль. Выставите настройки как на howto_sentinelEarthExplorer04
 
-Свойства слоя --> Стиль --> Одноканальное серое. Выставите контрастность как на картинке.
+.. figure:: _static/howto_sentinelStyleBW1.png
+   :name: howto_sentinelStyleBW1
+   :align: center
+   :width: 15cm
+   
+   Настройки стиля для чёрно-белого снимка
+
+4. Найдите и нажмите кнопку 
+
+Теперь картинка стала более контрастной. Особенно полезен этот способ когда на снимке есть облака.
 
 Создание цветного изображения (сложный способ)
 --------------------------------------------------------
