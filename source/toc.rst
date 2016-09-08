@@ -18,3 +18,4 @@
    topo_georef
    relief
    nextgisweb_tinymap
+   steppe_fire_sentinel
