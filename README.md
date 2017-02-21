@@ -1,7 +1,8 @@
-# docs_howto
+# NextGIS stack in action
+
 Howto for NextGIS products
 Фрагменты документаций для howto
 
-License
--------------
+# License
+
 This documentation is licensed under CC-BY-SA 3.0
