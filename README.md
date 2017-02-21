@@ -1,7 +1,7 @@
 # NextGIS stack in action
 
-Howto for NextGIS products
-Фрагменты документаций для howto
+* Howto for NextGIS products
+* Фрагменты документаций для howto
 
 # License
 
