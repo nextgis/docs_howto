@@ -36,7 +36,7 @@
 
 1. Склонируйте репозиторий
 
-.. code:: bash
+.. code-block:: bash
 
    git clone https://github.com/nextgis/nextgisweb_tinymap.git
 
@@ -46,7 +46,7 @@
     Укажите в нём свой NGWLayerURL и строку атрибуции
 
 
-.. code:: js
+.. code-block:: js
 
    NGWLayerURL: 'http://example.com/ngw/api/resource/31',
    NGWLayerAttribution:'<a href="http://corboration.com/">Источник данных</a>',
@@ -56,7 +56,7 @@
 
     Допустим, в NGW такая структура: 
 
-.. code:: bash
+.. code-block:: bash
 
    root
        L   Classifed data
