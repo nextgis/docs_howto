@@ -12,73 +12,32 @@
 Они запускаются самим NextGIS QGIS, но так же вы можете запустить их из консоли.
 На Ubuntu утилиты gdal/ogr и Python ставятся по зависимостям при установке NextGIS QGIS, и их можно запускать из системной консоли. 
 На Windows они не прописываются в path, и из системной консоли они не видны. Это сделано так что бы при совместной установке NextGIS QGIS и обычного QGIS они не ломали друг друга.
-Легкий фронтэнд для NextGIS Web - это несложный картодвижок на основе LeafletJS, который можете разместить на своём веб-сайте, чтобы показывать в нём векторный слой из NextGIS WEB. Слой добавляется в LeafletJS как GeoJSONLayer, в нём работает идентификация, показ названий и фотографий.
 
- .. figure:: _static/NextgiswebTinymapMain.png
-   :name: NextgiswebTinymapMain
-   :align: center
+Что бы запустить утилиту ogr2ogr на Windows необходимо:
 
-
-Демонстрация: http://nextgis.github.io/nextgisweb_tinymap/
-
-
-Реализованные возможности
-------------------------------------
-
-- [x] Иконки для точек.
-- [x] Окно идентификации.
-- [x] При идентификации поля называются по псевдонимам, которые берутся из настроек слоя NextGIS Web.
-- [x] При идентификации убираются скрытые поля - это берётся из настроек слоя NextGIS Web.
-- [x] При идентификации показываются название объекта - это берётся из настроек слоя NextGIS Web.
-- [x] При идентификации показываются фотографии объектов.
-- [x] Строка атрибуции задаётся к конфигурационном файле.
-- [x] Функция Leaflet PointToLayer хранится в отдельном файле стиля - при обновлении из репозитория ваш движок не сломается.
-- [x] При идентификации автоматически выделяются гиперссылки.
-
-Установка
---------------------
-
-1. Склонируйте репозиторий
+1. Инсталировать NextGIS QGIS репозиторий
 
 .. code-block:: bash
 
    git clone https://github.com/nextgis/nextgisweb_tinymap.git
 
 
-2. Переименуйте файл config.example.js в config.js
-3. Откройте файл config.js 
-    Укажите в нём свой NGWLayerURL и строку атрибуции
+2. Запустить поиск Windows (Win+S) 
+3. По строке "NextGIS" найти и запустить NextGIS Command Promt
+4. Откроется окно с коммандной строкой. В нём можно запускать ogr2ogr и другие утилиты GDAL.
+
+Так же в этом окне запускается python.
+Вы можете создать скрипт на python, который будет вызывать ogr2ogr вот так: 
+
+.. code-block:: python
+
+import os
+os.system('ogr2ogr output.shp test.vrt')
+os.system('ogr2ogr output.geojson sample.shp')
+
+И вызвать его из NextGIS Command Promt
 
 
-.. code-block:: js
+.. code-block:: batch
 
-   NGWLayerURL: 'http://example.com/ngw/api/resource/31',
-   NGWLayerAttribution:'<a href="http://corboration.com/">Источник данных</a>',
-
-
-4. Выставите права в NextGIS Web
-
-    Допустим, в NGW такая структура: 
-
-.. code-block:: bash
-
-   root
-       L   Classifed data
-       L   Open data
-           L   somefolder 1
-           L   somefolder 2
-           L   data
-               L   Your layer
-
-
-
-
-* Выставите в корне: Разрешить - Гость - Ресурс:Чтение - все ресурсы - нет.
-* Выставите в группе следующей по уровню, то есть в Open data для гостя: Ресурс:Чтение, Структура данных:Чтение, Данные:Чтение. Метаданные:Чтение(?) - распространять.
-
-
-5. Переименуйте файл tinymap.mapstyle.example.js в tinymap.mapstyle.js
-6. При необходимости вы можете настроить векторный стиль в файле tinymap.mapstyle.js. Это необязательно.
-
-Охват карты вычисляется автоматически при открытии.
-
+python c:/folder/main.py
