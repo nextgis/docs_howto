@@ -21,3 +21,4 @@
    steppe_fire_sentinel
    data_collection
    osm-extracts
+   aerial_dji
