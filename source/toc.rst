@@ -22,3 +22,4 @@
    data_collection
    osm-extracts
    aerial_dji
+   create_by_points
