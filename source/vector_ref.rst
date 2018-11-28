@@ -23,7 +23,10 @@ gcp - это Ground Control Points, точки с координатами в г
 Возьмём растровую карту 
 https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jpg
 
-Карта 
+.. figure:: _static/vector_georefrencing_original_map.jpg
+   :name: vector_georefrencing_original_map
+   :align: center
+   :width: 10cm
 
 Добавляем её в новый проект в NextGIS QGIS. На запросы системы координат отвечаем Cancel, проверяем что в проекте не включено преобразование координат на лету. Если всё правильно, то на экране должна быть карта как есть, а координаты курсора должны показываться в пикселах карты
 
