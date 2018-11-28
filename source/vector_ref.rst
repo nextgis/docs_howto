@@ -98,3 +98,11 @@ ogr2ogr -progress -f GPKG -a_srs EPSG:4326 -tps -gcp 2782.06875 -1007.353125 38.
    
    
 ogr2ogr должен создать векторный слой с географической системой координат
+
+
+.. figure:: _static/vector_georefrencing_final_layer.png
+   :name: vector_georefrencing_final_layer
+   :align: center
+   :width: 10cm
+   
+   Ожидаемый результат: слой, который вы оцифровали по растровой карте, ложится на OSM
