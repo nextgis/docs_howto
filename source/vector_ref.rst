@@ -42,6 +42,12 @@ https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jp
 
 Векторизуем чего-нибудь по карте в нашем новом векторном слое.
 
+
+.. figure:: _static/vector_georefrencing_vectorize.jpg
+   :name: vector_georefrencing_vectorize
+   :align: center
+   :width: 10cm
+
 Теперь нужно составить набор gcp. GUI для этого ещё никто не заказал, поэтому придётся вручную. 
 
 Ставьте наш плагин copy_coords
