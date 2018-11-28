@@ -37,6 +37,12 @@ https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jp
 
 Ставьте наш плагин copy_coords
 
+.. figure:: _static/vector_georefrencing_copy_coords.png
+   :name: vector_georefrencing_copy_coords
+   :align: center
+   :width: 10cm
+   
+
 Добавляйте через qms подложку
 
 проверяйте что otf выключено
