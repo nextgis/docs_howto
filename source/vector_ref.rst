@@ -71,8 +71,11 @@ https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jp
 2635.8890625	-1642.5703125	38.9937580329	55.8062260592
 824.447118787	-2607.92029001	38.9752620143	55.7954988271
 ```
+
 берёте notepad++ и составляете строку вызова ogr2ogr с gcp. Должно быть что-то вроде такого.
+
 ```
 ogr2ogr -progress -f GPKG -a_srs EPSG:4326 -tps -gcp 2782.06875 -1007.353125 38.9931560236 55.8110937342 -gcp 2635.8890625 -1642.5703125 38.9937580329 55.8062260592 -gcp 824.447118787 -2607.92029001 38.9752620143 55.7954988271 d:\trolleway\2018-11_docs\vector_georefrencing\roads_refrenced.gpkg d:\trolleway\2018-11_docs\vector_georefrencing\roads_local.gpkg
 ```
+
 ogr2ogr должен создать векторный слой с географической системой координат
