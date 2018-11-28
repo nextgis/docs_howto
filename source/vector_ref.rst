@@ -45,7 +45,13 @@ https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jp
 
 Добавляйте через qms подложку
 
-проверяйте что otf выключено
+проверяйте что система координат проекта выставлена в EPSG:4326
+
+.. figure:: _static/vector_georefrencing_epsg4326.png
+   :name: vector_georefrencing_epsg4326
+   :align: center
+   :width: 10cm
+   
 
 щёлкаете точку на растровой карте  копируйте координаты в электронную таблицу
 
@@ -65,7 +71,14 @@ https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jp
 Алгоритм тонкостенный сплан для наших задач подходит лучше других. Значение elevation можно пропускать.
 
 
-Пример реальных данных. Слева координаты пикселов картинки, справа - географические координаты
+Пример реальных данных. Слева координаты пикселов картинки, справа - географические координаты.
+
+.. figure:: _static/vector_georefrencing_table.png
+   :name: vector_georefrencing_table
+   :align: center
+   :width: 10cm
+   
+   
 ```
 2782.06875	-1007.353125	38.9931560236	55.8110937342
 2635.8890625	-1642.5703125	38.9937580329	55.8062260592
@@ -78,4 +91,10 @@ https://commons.wikimedia.org/wiki/File:Orekhovo-Zuevo_map_1925_(22370728927).jp
 ogr2ogr -progress -f GPKG -a_srs EPSG:4326 -tps -gcp 2782.06875 -1007.353125 38.9931560236 55.8110937342 -gcp 2635.8890625 -1642.5703125 38.9937580329 55.8062260592 -gcp 824.447118787 -2607.92029001 38.9752620143 55.7954988271 d:\trolleway\2018-11_docs\vector_georefrencing\roads_refrenced.gpkg d:\trolleway\2018-11_docs\vector_georefrencing\roads_local.gpkg
 ```
 
+.. figure:: _static/vector_georefrencing_terminal_ogr2ogr.png
+   :name: vector_georefrencing_terminal_ogr2ogr
+   :align: center
+   :width: 10cm
+   
+   
 ogr2ogr должен создать векторный слой с географической системой координат
