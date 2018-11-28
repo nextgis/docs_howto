@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 2
    
+   nextgis_command_prompt
    sxf
    entels
    LipetskRegEcoGIS
