@@ -15,13 +15,7 @@
 
 Что бы запустить утилиту ogr2ogr на Windows необходимо:
 
-1. Инсталировать NextGIS QGIS репозиторий
-
-.. code-block:: bash
-
-   git clone https://github.com/nextgis/nextgisweb_tinymap.git
-
-
+1. Инсталировать NextGIS QGIS 
 2. Запустить поиск Windows (Win+S) 
 3. По строке "NextGIS" найти и запустить NextGIS Command Promt
 4. Откроется окно с коммандной строкой. В нём можно запускать ogr2ogr и другие утилиты GDAL.
