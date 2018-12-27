@@ -18,6 +18,48 @@
 #. :program:`NextGIS QGIS`.
 
 
+1. Откройте электронную таблицу в Calc / Excel. Сохраните лист в формат csv в кодировке UTF-8. В десктопных Microsoft Excel нужный формат называется "CSV (UTF-8)". 
+
+2. В NextGIS QGIS установите плагин RuGeocoder. 
+
+.. figure:: _static/rugeocoder_install.png
+   :name: howto_rugeocoder_install
+   :align: center
+
+
+
+
+3. В NextGIS QGIS: Веб --> RuGeocoder --> Конвертировать csv в shp
+
+.. figure:: _static/rugeocoder_convertcsv2shp.png
+   :name: howto_rugeocoder_convertcsv2shp
+   :align: center
+   
+   
+   
+   У вас получится слой с точками, находящимися в 0 координат. 
+
+   
+3. В NextGIS QGIS: Веб --> RuGeocoder --> Пакетное геокодирование.
+
+
+.. figure:: _static/rugeocoder_geocoding.png
+   :name: rugeocoder_geocoding
+   :align: center
+
+Укажите:
+   
+   * Слой, который будет геокодироваться.
+   * Атрибут, в котором написан адрес.
+   * Город, или регион (опционально)
+   
+После завершения работы, точки будут передвинуты на найденые адреса.
+
+
+
+В реальной жизни теперь начинается основная работа - ручная коррекция найденых координат. В самом лучшем случае, правильно найдется 70% адресов, в среднем правильно геокодируется около половины точек. 
+
+   
 
 Получение данных ASTER
 ----------------------------
