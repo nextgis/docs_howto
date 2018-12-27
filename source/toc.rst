@@ -25,3 +25,4 @@
    create_by_points
    topo_georef
    vector_ref
+   rugeocoder
