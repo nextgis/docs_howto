@@ -18,7 +18,11 @@
 #. :program:`NextGIS QGIS`.
 
 
-1. Откройте электронную таблицу в Calc / Excel. Сохраните лист в формат csv в кодировке UTF-8 и с полями в кавычках. В десктопных Microsoft Excel нужный формат называется "CSV (UTF-8)". 
+1. Откройте электронную таблицу в Calc / Excel. Сохраните лист в формат csv в кодировке UTF-8 и с текстовыми значениями в кавычках. В десктопных Microsoft Excel нужный формат называется "CSV (UTF-8)". 
+
+.. figure:: _static/rugeocoder_xls2csv.png
+   :name: howto_rugeocoder_xls2csv
+   :align: center
 
 2. В NextGIS QGIS установите плагин RuGeocoder. 
 
