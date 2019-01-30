@@ -26,3 +26,4 @@
    topo_georef
    vector_ref
    rugeocoder
+   bars_user
