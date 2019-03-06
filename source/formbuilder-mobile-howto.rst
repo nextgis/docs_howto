@@ -39,6 +39,16 @@
 
 * Создайте аккаунт для сборщиков. Дайте ему права на корневую группу ресурсов, и на группу ресурсов с данными.
 
+```
+main resourse group
+connection read  - no propagandate
+resourse read all
+data structure read all
+
+data folder
+all permissions all
+```
+
 Создание формы
 ---------------------------
 * Необходимо установить актуальную версию NextGIS Formbuilder. Как определить, актуальная ли она, во время написания инструкции мы не придумали.
