@@ -11,11 +11,11 @@ NextGIS создал драйвер nextgisweb для gdal. Теперь исп�
 
 
 
-Создание слоя в ngw из файла
+ogr2ogr geojson to ngw
 -------------------------------
 
 ```
-ogr2ogr 
+ogr2ogr -nlt POINT -skipfailures  -dsco "USERPWD=administrator:demodemo" -t_srs EPSG:4326 -f NGW "NGW:https://sandbox.nextgis.com/resource/0/Название на русском языке" post_office.geojson 
 ```
 
 
