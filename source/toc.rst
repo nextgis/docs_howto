@@ -27,3 +27,6 @@
    vector_ref
    rugeocoder
    bars_user
+   ogr2ogr_windows
+   ogr2ogr
+   
