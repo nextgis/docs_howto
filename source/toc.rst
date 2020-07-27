@@ -30,3 +30,4 @@
    ogr2ogr_windows
    ogr2ogr
    egrn_source
+   replication
