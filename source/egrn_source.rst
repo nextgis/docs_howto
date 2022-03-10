@@ -109,3 +109,5 @@ https://rosreestr.ru/wps/portal/p/cc_ib_portal_services/cc_check_request_status/
 4. **Важно!** Приходит счет на оплату от Госуслуг, Госуслуги <no-reply@gosuslugi.ru> - **Его не оплачивать!**
 5. Приходит сообщение о завершении обработки запроса от spv@kadastr.ru
 6. Итого время обработки - около 5 минут. Результат со всеми слоями (т.е. и ЗОУИТы и границы НП). Архив в той же папке
+
+Результат будет выглядеть `таким образом https://demo.nextgis.com/resource/4088/display?panel=info>`_.
