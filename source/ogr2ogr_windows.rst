@@ -25,13 +25,14 @@
 
 .. code-block:: python
 
-import os
-os.system('ogr2ogr output.shp test.vrt')
-os.system('ogr2ogr output.geojson sample.shp')
+   import os
+   os.system('ogr2ogr output.shp test.vrt')
+   os.system('ogr2ogr output.geojson sample.shp')
+
 
 И вызвать его из NextGIS Command Promt
 
 
 .. code-block:: batch
 
-python c:/folder/main.py
+   python c:/folder/main.py
