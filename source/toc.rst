@@ -9,8 +9,8 @@
 .. toctree::
    :maxdepth: 2
 
-   egrn_source
    sxf
+   egrn_source
    grid_vertex_extract
    nextgisweb_tinymap
    steppe_fire_sentinel
