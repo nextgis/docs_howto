@@ -8,26 +8,19 @@
     
 .. toctree::
    :maxdepth: 2
-   
-   nextgis_command_prompt
+
+   egrn_source
    sxf
-   entels
-   LipetskRegEcoGIS
-   barnaul
    grid_vertex_extract
-   pt-zapovednik
-   relief
    nextgisweb_tinymap
    steppe_fire_sentinel
    data_collection
-   osm-extracts
    aerial_dji
    create_by_points
    topo_georef
    vector_ref
-   rugeocoder
    bars_user
    ogr2ogr_windows
-   ogr2ogr
-   egrn_source
-   replication
+
+
+
