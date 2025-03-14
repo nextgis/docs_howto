@@ -14,7 +14,6 @@
    grid_vertex_extract
    nextgisweb_tinymap
    steppe_fire_sentinel
-   data_collection
    aerial_dji
    create_by_points
    topo_georef
