@@ -46,9 +46,9 @@
 Далее необходимо выставить СК карты EPSG:3857 Google merkator (см. :numref:`howto_select_srs_pic`).
 
 .. figure:: _static/select_srs_ru.png
-   :name: howto_select_srs_pic
+   :name: select_srs_pic
    :align: center
-   :width: 20m
+   :width: 16cm
    
    Диалог "Установка системы координат"
 
