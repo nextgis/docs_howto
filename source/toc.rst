@@ -21,6 +21,7 @@
    vector_ref
    bars_user
    ogr2ogr_windows
+   extracts
 
 
 
