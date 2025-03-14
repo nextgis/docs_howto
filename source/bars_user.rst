@@ -11,6 +11,7 @@
 .. _bars_user:
 
 1. Зайдите в Google Play, введите в строку поиска - nextgis, установите `NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.simple_collector>`_.
+
  .. figure:: _static/ng_collector_googleplay_icon.png
    :name: ng_collector_googleplay_icon
    :align: center
