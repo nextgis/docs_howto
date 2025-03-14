@@ -1,5 +1,7 @@
 .. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
 
+.. todo::   планируется обновление
+
 .. _howto_rugeocoder:
 
 Геокодинг - из таблицы с адресами в слой с координатами
