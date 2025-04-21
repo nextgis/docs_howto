@@ -18,6 +18,7 @@
    bars_user
    ogr2ogr_windows
    extracts
+   command_prompt
 
 
 
