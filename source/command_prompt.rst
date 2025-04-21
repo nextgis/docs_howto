@@ -16,7 +16,7 @@
 
 Запущенная консоль выглядит так:
 
-.. figure:: _static/_.png
+.. figure:: _static/ngcommand_launched.png
    :name: 
    :align: center
    :width: 16cm
@@ -34,7 +34,7 @@
 
 Например:
 
-.. figure:: _static/_.png
+.. figure:: _static/ngcommand_cd.png
    :name: 
    :align: center
    :width: 16cm
