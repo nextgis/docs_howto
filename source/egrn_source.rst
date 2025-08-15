@@ -38,6 +38,7 @@
     #. Введите номер кадастрового квартала.
     #. Подтвердите оплату и перейдите в раздел «Заявления» в личном кабинете. Ожидайте решение по заявлению.
 
+Полученный документ XML можно сконвертировать в геоданные при помощи `NextGIS Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import>`_.
 
 .. _fgis_egrn_fiz:
 
@@ -84,3 +85,4 @@
 
 .. important:: Ссылка на скачивание документа действительна один месяц.
 
+Полученный документ XML можно сконвертировать в геоданные при помощи `NextGIS Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import>`_.
