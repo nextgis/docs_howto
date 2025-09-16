@@ -1,4 +1,4 @@
-.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
+
 
 .. _howto_vector_ref:
 
