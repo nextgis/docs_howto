@@ -1,4 +1,4 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+
 
 .. _grid_vertext_extract:
 

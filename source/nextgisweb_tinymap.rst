@@ -1,4 +1,4 @@
-.. sectionauthor:: Артём Светлов <@nextgis.ru>
+
 
 .. nextgisweb_tinymap:
 

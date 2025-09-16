@@ -1,4 +1,4 @@
-.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
+
 
 .. _create_by_points:
 
