@@ -11,17 +11,17 @@ In this example, we will create a project to collect data about trees in the cit
 
 Setting up
 
-* Step 1. Free account and Web GIS
-* Step 2. Resource group
-* Step 3. Vector layer (database)
-* Step 4. Data collecting form 
-* Step 5. List of field workers
-* Step 6. Collector project
+* `Step 1. Free account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#account>`_
+* `Step 2. Resource group <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#webgis>`_
+* `Step 3. Vector layer (database) <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#create-layer>`_
+* `Step 4. Data collecting form <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#form>`_ 
+* `Step 5. List of field workers <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#collectors>`_
+* `Step 6. Collector project <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#project>`_
 
 Collect and check the data
 
-* Enter data
-* Check and visualize in Web GIS
+* `Enter data <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#fieldwork>`_
+* `Check and visualize in Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html#check>`_
 
 
 
