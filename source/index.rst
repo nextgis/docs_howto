@@ -3,8 +3,8 @@ Tutorials
 
 Download a starter data kit and follow detailed step-ty-step instructions to get to know NextGIS platform with first-hand experience.
 
-1. `Store, manage and publish your spatial data <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html>`_
-2. `Seamless QGIS Integration <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html>`_
+* `Store, manage and publish your spatial data <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html>`_
+* `Seamless QGIS Integration <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html>`_
 
 .. figure:: _static/t2_title_seamless.png
    :name: 
@@ -13,7 +13,7 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
    :target: https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html
 
 
-3. `Collect Spatial Data in the Field <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html>`_
+* `Collect Spatial Data in the Field <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html>`_
 
 .. figure:: _static/t3_title_collect.png
    :name: 
