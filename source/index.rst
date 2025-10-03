@@ -11,7 +11,7 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
    :name: 
    :align: left
    :width: 12cm
-   :target: https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html
+
 
 
 `Collect Spatial Data in the Field <https://docs.nextgis.com/docs_howto/source/tutorial_collect.html>`_
