@@ -9,8 +9,9 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
 
 .. figure:: _static/t2_title_seamless.png
    :name: 
-   :align: left
+   :align: center
    :width: 12cm
+   :target: https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html
 
 
 
