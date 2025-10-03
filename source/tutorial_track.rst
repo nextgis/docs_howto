@@ -13,19 +13,20 @@ An Android smartphone is required to work with mobile application.
 
 Basic:
 
-Create free account and Web GIS
-Install and set up NextGIS Tracker on your Android device
-Start collecting locations
-Track the device position on a Web Map
+* Step 1 `Create free account and Web GIS <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#account>`_
+* Step 2 `Install and set up NextGIS Tracker on your Android device <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#install>`_
+* Step 3 `Start collecting locations <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
+* Step 4 `View the current tracker location and recorded track on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
 
 Additional:
-Create reports and 
-export GPX file
 
+* `Create reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_
+* `Export GPX file <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_
+* `Manage trackers <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#manage>`_
 
 .. _account:
 
-Step 1/6 Create free account and Web GIS
+Step 1/4 Create free account and Web GIS
 ----------------------------------------
 
 Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
@@ -33,20 +34,20 @@ Go to `my.nextgis.com`, click the **Create Account** button and sign up using yo
 After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
 
 .. figure:: _static/tutorial_create_wg_en.png
-   :name: 
+   :name: tutorial_create_wg_pic
    :align: center
    :width: 20cm
 
 When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
 
 .. figure:: _static/tutorial_my_wg_en.png
-   :name: 
+   :name: tutorial_my_wg_pic
    :align: center
    :width: 20cm
 
 .. _install:
 
-Step 2 Install and set up NextGIS Tracker on your Android device
+Step 2/4 Install and set up NextGIS Tracker on your Android device
 ------------------------------------------------------------------
 
 Install NextGIS Tracker application on your Android device. It could be found in Google Play.
@@ -57,18 +58,18 @@ You can start recording local tracks immediately and then share them as GPX file
 
 Tap the synchronization switch in the top right corner of the interface:
 
-.. figure:: _static/sync_turn_on.png
-   :name: 
+.. figure:: _static/sync_turn_on_en.png
+   :name: sync_turn_on_pic
    :align: center
-   :width: 20cm
+   :width: 8cm
 
 
 On the next screen enter your Web GIS name (created at step 1, in this example ngw-quickstart.nextgis.com), then the email and password you used to create NextGIS ID.
 
 .. figure:: _static/webgis_creds_en.png
-   :name: 
+   :name: webgis_creds_pic
    :align: center
-   :width: 20cm
+   :width: 8cm
 
 Tap on the green icon in the bottom corner to save the changes.
 
@@ -78,32 +79,37 @@ Active synchronization is indicated by the blue color of the switch as well as t
    :width: 6mm
    :alt: circular arrows
 
+.. figure:: _static/sync_active_en.png
+   :name: sync_active_pic
+   :align: center
+   :width: 8cm
+
 
 .. _record:
 
-Step 3 Start collecting locations as you go for a short walk
--------------------------------------------------------------
+Step 3/4 Start collecting locations as you go for a short walk
+---------------------------------------------------------------
 
 To start recording your first track, tap on the green “Start” button in the bottom right corner. 
 
 Tha application would ask you to allow allow the app to access location continuously even when the app is not in use. It is important for so that App is able to record tracks. 
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/start_track_en.png
+   :name: start_track_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 Go to your device Settings and select “Allow all the time” for the Tracker app. The dialog may vary depending on Android version.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/allow_all_the_time_en.png
+   :name: allow_all_the_time_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 Now when you return to the app there's a new status, “Collecting tracking data and syncing…”.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/status_synching_en.png
+   :name: status_synching_pic
    :align: center
    :width: 10cm
 
@@ -113,15 +119,15 @@ You monitor your movements in real time using Web Map.
 
 .. _position:
 
-Step 4 Track the device position on a Web Map
------------------------------------------------
+Step 4/4 View the current tracker location and recorded track on a Web Map
+--------------------------------------------------------------------------
 
 Open your Web GIS in a browser by clicking on the highlighted link in `your account <https://my.nextgis.com/webgis/>`_ or by typing it directly in the address bar. You'll see the main interface of your Web GIS.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/webgis_main_interface_en.png
+   :name: webgis_main_interface_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 In NextGIS Web everything is a resource — directories, layers, Web Maps, connections to services and databases. Resources are organized as files at your computer — in a tree. 
 
@@ -136,15 +142,15 @@ Click on the |button_open_web_map| icon to open the “Main Web Map” resource 
    :width: 6mm
    :alt: map with a magnifying glass
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/open_main_webmap_en.png
+   :name: open_main_webmap_en
    :align: center
    :width: 20cm
 
 This Web Map is empty - no layers, just a default basemap. But in the left panel a Trackers menu is available, activate it.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/activate_tracker_panel_en.png
+   :name: activate_tracker_panel_pic
    :align: center
    :width: 20cm
 
@@ -156,28 +162,35 @@ The Trackers panel lists all connected tracker devices. You have only one tracke
    :width: 6mm
    :alt: pointed shape with a dot
 
+.. figure:: _static/tracker_last_point_en.png
+   :name: tracker_last_point_pic
+   :align: center
+   :width: 10cm
+
 Last recorded location would be shown on the Web Map. If the device with the tracker moves, you see it in real-time.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/tracker_current_location_en.png
+   :name: tracker_current_location_pic
    :align: center
    :width: 20cm
 
 By clicking other buttons you could view track line and track points recorded within the selected time range.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/track_line_points_en.png
+   :name: track_line_points_pic
    :align: center
    :width: 20cm
 
 Hover over track points to see detailed information on the date, time, speed, direction and other parameters.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/track_hover_details_en.png
+   :name: track_hover_details_pic
    :align: center
    :width: 10cm
 
-When you've collected some tracks, you can analyze them by creating reports or export the tracks in GPX format to share and create backup.
+After you've collected some tracks, you can analyze them by `creating reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_ or `export the tracks <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_ in GPX format to share and create backup.
+
+If you have Premium subscription, you can have `multiple devices connected <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#manage>`_ to your Web GIS as trackers.
 
 
 .. _report:
@@ -185,26 +198,51 @@ When you've collected some tracks, you can analyze them by creating reports or e
 Create reports 
 ----------------
 
-Activate the “Reports”:
+On the Trackers panel click on the “Reports” icon:
 
-Here you can create different types of reports. Select “Average speed” type, set the time range covering your today’s walk, set grouping by hours and select the only available tracker, then click “Create report” button.
+.. figure:: _static/trackers_reports_en.png
+   :name: trackers_reports_pic
+   :align: center
+   :width: 10cm
 
-You got a fast calculation of average speed. 
+Here you can create different types of reports. 
+
+In the "Report type" dropdown menu select **Average speed**. Then set the time range covering your today’s walk. In the "Group by" field select grouping by hours.
+
+Tick the only available tracker, then click **Create report** button.
+
+.. figure:: _static/report_average_speed_en.png
+   :name: report_average_speed_pic
+   :align: center
+   :width: 20cm
+
+You've got a fast calculation of average speed. 
 
 .. _export:
 
 Export GPX file
 ----------------
 
-Then select the “GPX file” type of report. After pushing the “Create report” button you’ll get the “Download GPX file” link. This GPX file could be used in QGIS or other applications.
+To export your track as file, go to the Reports page (see :numref:`trackers_reports_pic`).
+
+Then in the "Report type" field select **GPX file**. 
+
+After clicking the **Create report** button you get the “Download GPX file” link. This GPX file could be used in QGIS or other applications.
 
 .. _manage:
 
 Manage trackers
 ---------------
 
-The NextGIS Tracker app gives you a possibility to start collecting locations with Web GIS syncing very easily. In simple cases, it could set up everything on the Web GIS side by itself, as shown in this tutorial.
+When you enable Web GIS syncing in NextGIS Tracker app, it sets up everything on the Web GIS side automatically, as shown in this tutorial.
 
-But you can create and manage trackers manually, using the “Trackers group” type of resource in NextGIS Web: there is a “Tracker” resource that could be created inside the “Trackers group”. In production environments there could be hundreds of trackers connected to Web GIS.
+But also you can create and manage trackers manually, creating a `Trackers group resource and Tracker resources <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracking-create>`_ within it. It allows to have hundreds of trackers connected to Web GIS in a production environment.
 
-Other NextGIS mobile apps: NextGIS Mobile and NextGIS Collector also support tracking and Web GIS synchronization.
+
+
+.. seealso::
+
+   Other NextGIS mobile apps also support tracking and Web GIS synchronization. More details:
+
+   * `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/index.html`_
+   * `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/index.html>`_
