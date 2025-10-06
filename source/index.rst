@@ -9,7 +9,6 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
 
 .. figure:: _static/t2_title_seamless.png
    :name: 
-   :align: center
    :width: 12cm
    :target: https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html
 
@@ -19,7 +18,6 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
 
 .. figure:: _static/t3_title_collect.png
    :name: 
-   :align: left
    :width: 12cm
    :target: https://docs.nextgis.com/docs_howto/source/tutorial_collect.html
 
