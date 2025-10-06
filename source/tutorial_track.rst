@@ -18,7 +18,7 @@ Basic:
 * Step 3 `Start collecting locations <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#record>`_
 * Step 4 `View the current tracker location and recorded track on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#position>`_
 
-Additional:
+Advanced:
 
 * `Create reports <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#report>`_
 * `Export GPX file <https://docs.nextgis.com/docs_howto/source/tutorial_track.html#export>`_
@@ -29,7 +29,7 @@ Additional:
 Step 1/4 Create free account and Web GIS
 ----------------------------------------
 
-Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
+Go to `my.nextgis.com <https://my.nextgis.com/>`_, click the **Create Account** button and sign up using your email address. 
 
 After registration your account page would appear. Select the **Web GIS** menu on the left, come up with a name (ngw-quickstart.nextgis.com in this example) and select the nearest Data center location (DE Falkenstein in this example). Then click **Create Web GIS**.
 
@@ -244,5 +244,5 @@ But also you can create and manage trackers manually, creating a `Trackers group
 
    Other NextGIS mobile apps also support tracking and Web GIS synchronization. More details:
 
-   * `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/index.html`_
+   * `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/index.html>`_
    * `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/index.html>`_
