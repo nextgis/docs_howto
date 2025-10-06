@@ -27,3 +27,4 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
    :hidden:
 
    tutorial_collect
+   tutorial_track
