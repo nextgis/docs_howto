@@ -23,6 +23,14 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
 
 4. `Track Asset and Team Locations in Real Time <https://docs.nextgis.com/docs_howto/source/tutorial_track.html>`_
 
+.. figure:: _static/t4_title_track.png
+   :name: 
+   :width: 12cm
+   :target: https://docs.nextgis.com/docs_howto/source/tutorial_track.html
+
+
+
+
 
 .. toctree::
    :maxdepth: 1
