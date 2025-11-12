@@ -25,7 +25,7 @@ NextGIS Web - платформа для хранения, управления �
 9. `Создание пустого векторного слоя в Веб ГИС <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#empty-layer>`_
 10. `Редактирование слоя в Веб ГИС, вложения <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#edit>`_
 11. `Публикация через OGC API Features <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#ogc-api>`_
-12. `Следующие шаги <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#>`_
+12. `Следующие шаги <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#next>`_
 
 .. _account:
 
