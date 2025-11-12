@@ -12,20 +12,20 @@ NextGIS Web - платформа для хранения, управления �
 Базовый уровень
 
 1. `Создание бесплатного аккаунта и Веб ГИС <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#account>`_
-2. `Создание группы ресурсов <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#webgis>`_
-3. `Загрузка векторного слоя <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#vector>`_
-4. `Загрузка стиля <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#style>`_
-5. `Загрузка растрового слоя <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#raster>`_
-6. `Публикация веб-карты <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#webmap>`_
+2. `Создание группы ресурсов <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#webgis>`_
+3. `Загрузка векторного слоя <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#vector>`_
+4. `Загрузка стиля <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#style>`_
+5. `Загрузка растрового слоя <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#raster>`_
+6. `Публикация веб-карты <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#webmap>`_
 
 Продвинутый уровень
 
-7. `Добавление слоя WMS на веб-карту <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#wms-layer>`_
-8. `Добавление подложки <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#basemap>`_
-9. `Создание пустого векторного слоя в Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#empty-layer>`_
-10. `Редактирование слоя в Веб ГИС, вложения <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#edit>`_
-11. `Публикация через OGC API Features <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#ogc-api>`_
-12. `Следующие шаги <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#>`_
+7. `Добавление слоя WMS на веб-карту <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#wms-layer>`_
+8. `Добавление подложки <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#basemap>`_
+9. `Создание пустого векторного слоя в Веб ГИС <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#empty-layer>`_
+10. `Редактирование слоя в Веб ГИС, вложения <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#edit>`_
+11. `Публикация через OGC API Features <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#ogc-api>`_
+12. `Следующие шаги <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#>`_
 
 .. _account:
 
@@ -198,7 +198,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 В разделе **Внешний доступ** вы найдёте автоматически сгенерированную ссылку, которую можно использовать, чтобы подключить стилизованные данные как тайлы Tiled Map Service, например, в QGIS. `Подробнее об использовании TMS <https://docs.nextgis.ru/docs_ngweb/source/external.html#tms>`_
 
-Теперь можно добавить слой другого типа или сразу перейти к  `созданию веб-карты <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#step-6-6-publish-web-map>`_.
+Теперь можно добавить слой другого типа или сразу перейти к  `созданию веб-карты <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_.
 
 .. _raster:
 
@@ -342,11 +342,11 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 Дальше вы можете:
 
-* `Добавить на веб-карту слой из внешнего источника <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#>`_;
-* `Добавить свою подложку <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#basemap>`_;
-* `Создать пустой векторный слой <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#empty-layer>`_;
-* `Редактировать векторные объекты и добавлять вложения <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#edit>`_;
-* `Опубликовать данные через сервис OGC API Features <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#ogc-api>`_.
+* `Добавить на веб-карту слой из внешнего источника <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#>`_;
+* `Добавить свою подложку <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#basemap>`_;
+* `Создать пустой векторный слой <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#empty-layer>`_;
+* `Редактировать векторные объекты и добавлять вложения <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#edit>`_;
+* `Опубликовать данные через сервис OGC API Features <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#ogc-api>`_.
 
 .. _wms_layer:
 
@@ -597,7 +597,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 В Веб ГИС создан новый векторный слой. 
 
-Теперь его можно добавить на веб-карту и `опубликовать через сервис OGC <https://docs.nextgis.ru/docs_ngcom/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
+Теперь его можно добавить на веб-карту и `опубликовать через сервис OGC <https://docs.nextgis.ru/docs_howto/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
 
 Но сначала добавим на новый слой несколько объектов, используя веб-интерфейс.
 
