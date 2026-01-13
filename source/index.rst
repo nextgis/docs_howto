@@ -36,5 +36,7 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
    :maxdepth: 1
    :hidden:
 
+   tutorial_webgis
+   tutorial_qgis
    tutorial_collect
    tutorial_track
