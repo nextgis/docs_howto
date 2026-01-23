@@ -12,9 +12,7 @@
    extracts
    sxf
    grid_vertex_extract
-   nextgisweb_tinymap
    steppe_fire_sentinel
-   aerial_dji
    create_by_points
    vector_ref
    bars_user
