@@ -126,23 +126,33 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_menu_manage_plugins_ru.png
    :name: tut_menu_manage_plugins_pic
    :align: center
-   :width: 12cm
+   :width: 16cm
 
 
 Перейдите на вкладку "Все" и найдите модуль NextGIS Connect. Впишите название в строку поиска, чтобы быстро найти его. Нажмите **Установить модуль**.
 
+Если вы используете NextGIS QGIS, этот модуль входит в сборку и уже установлен. Вместо кнопки "Установить" вы увидите надпись **Обновить модуль**. Обновите его до актуальной версии.
+
 .. figure:: _static/tut_install_ngconnect_ru.png
    :name: tut_install_ngconnect_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
+   Установка модуля
+
+.. figure:: _static/tut_update_ngconnect_ru.png
+   :name: tut_update_ngconnect_pic
+   :align: center
+   :width: 18cm
+
+   Обновление модуля
 
 После установки модуль NextGIS Connect доступен в меню "Интернет" и в панели инструментов: |ngconnect_icon|. Когда модуль активен, в интерфейсе отображается его панель.
 
 .. figure:: _static/tut_ngconnect_in_qgis_ru.png
    :name: tut_ngconnect_in_qgis_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Перейдите в настройки модуля, нажав кнопку |button_settings|. Здесь вы найдёте все настройки, связанные с интеграцией QGIS с NextGIS Web. Для начала установим соединение с Веб ГИС. 
 
@@ -169,7 +179,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_ngcn_create_connection_ru.png
    :name: tut_ngcn_create_connection_pic
    :align: center
-   :width: 12cm
+   :width: 11cm
 
 В следующем диалоговом окне введите адрес электронной почты и пароль, которые вы использовали при регистрации на my.nextgis.com на шаге 1, затем нажмите **Сохранить**.
 
@@ -183,14 +193,14 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_ngcn_test_connection_ru.png
    :name: tut_ngcn_test_connection_pic
    :align: center
-   :width: 12cm
+   :width: 11cm
 
 .. tip:: Чтобы **редактировать данные совместно** с коллегами, включите галочку “Включить версионирование объектов для загружаемых векторных слоёв”.
 
 .. figure:: _static/tut_enable_versioning_ru.png
    :name: tut_enable_versioning_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
 Нажмите **ОК** внизу окна, чтобы применить изменения и закрыть настройки. 
 
@@ -199,7 +209,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_ngcn_panel_connected_ru.png
    :name: tut_ngcn_panel_connected_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
 С помощью этой панели вы можете загружать локальные данные в Веб ГИС, управлять откреплёнными слоями и картами в QGIS, обновлять стили, создавать сервисы и многое другое. Также есть простой способ загрузить проект QGIS целиком и создать из него веб-карту.
 
@@ -213,7 +223,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_upload_all_ru.png
    :name: tut_upload_all_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
 Введите имя для своего проекта. В нашем примере это ``Суздаль``. В Веб ГИС будет создана группа ресурсов с таким названием, и в неё будут загружены все данные проекта.
 
@@ -227,7 +237,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_upload_status_ru.png
    :name: tut_upload_status_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
 
 Когда создание веб-карты успешно завершилось, она откроется в браузере. Также вы можете открыть её из панели Connect. Кликните правой кнопкой мыши по веб-карте в дереве ресурсов и в контекстном меню выберите "Открыть в браузере". 
@@ -237,7 +247,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_open_in_browser_ru.png
    :name: tut_open_in_browser_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 Теперь вы можете изучить получившуюся веб-карту. Перейдите к следующему шагу, чтобы узнать, как подключить существующую веб-карту в QGIS.
 
