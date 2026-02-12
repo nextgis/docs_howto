@@ -106,7 +106,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_suzdal_project_ru.png
    :name: tut_suzdal_project_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 
 Меняйте масштаб колёсиком мыши или кнопками панели инструментов, чтобы увидеть, как меняются стили в зависимости от приближения.
@@ -114,7 +114,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_project_zoomed_ru.png
    :name: tut_project_zoomed_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 .. _install:
 
@@ -247,7 +247,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_open_in_browser_ru.png
    :name: tut_open_in_browser_pic
    :align: center
-   :width: 8cm
+   :width: 9cm
 
 Теперь вы можете изучить получившуюся веб-карту. Перейдите к следующему шагу, чтобы узнать, как подключить существующую веб-карту в QGIS.
 
@@ -261,7 +261,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_suzdal_webmap_ru.png
    :name: tut_suzdal_webmap_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Вы можете включать и отключать отображение слоёв и отдельных категорий внутри слоёв. У веб-карты есть собственная ссылка, которой легко поделиться. Попробуйте инструменты, которые видите на веб-карте. Подробнее об их возможностях: https://docs.nextgis.ru/docs_ngweb/source/webmaps_client.html
 
@@ -279,7 +279,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_wg_suzdal_ru.png
    :name: tut_wg_suzdal_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Загруженные слои также можно редактировать с помощью QGIS. Рассмотрим, как это сделать.
 
@@ -295,7 +295,7 @@ NextGIS Web - платформа для хранения, управления �
 .. figure:: _static/tut_add_to_qgis_ru.png
    :name: tut_add_to_qgis_pic
    :align: center
-   :width: 10cm
+   :width: 9cm
 
 QGIS построит локальную копию содержимого веб-карты, скачав все нужные слои и стили и организовав их в проекте в аналогичную структуру.
 
@@ -304,7 +304,7 @@ QGIS построит локальную копию содержимого ве�
 .. figure:: _static/tut_downloaded_ru.png
    :name: tut_downloaded_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Обратите внимание, что в панели Слои напротив слоёв появились специальные значки: |synchronized|.
 
@@ -333,10 +333,10 @@ QGIS построит локальную копию содержимого ве�
 
 Теперь найдите и выберите слой *Дорожная сеть* в панели NextGIS Connect.
 
-.. figure:: _static/tut_railroad_select_ru.png
-   :name: tut_railroad_select_pic
+.. figure:: _static/tut_road_select_ru.png
+   :name: tut_road_select_pic
    :align: center
-   :width: 12cm
+   :width: 9cm
 
 Перейдите в панель Слои, откройте контекстное меню слоя *Дорожная сеть* и выберите пункт **NextGIS Connect --> Обновить стиль слоя**.
 
@@ -350,7 +350,7 @@ QGIS построит локальную копию содержимого ве�
 .. figure:: _static/tut_webmap_red_roads_ru.png
    :name: tut_webmap_red_roads_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 
 Стили растровых слоёв также можно изменять. 
@@ -365,7 +365,7 @@ QGIS построит локальную копию содержимого ве�
 .. figure:: _static/tut_raster_initial_ru.png
    :name: tut_raster_initial_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Вызовите контекстное меню слоя и выберите "Свойства".
 
@@ -374,47 +374,47 @@ QGIS построит локальную копию содержимого ве�
    :align: center
    :width: 14cm
 
-В диалоге свойств откройте вкладку "Стиль" и в пункте *Красный канал* выберите вместо ``Канал 1 (red)`` ``Канал 4`` Нажмите **ОК**.
+В диалоге свойств откройте вкладку "Стиль" и в пункте *Красный канал* выберите вместо ``Канал 1`` ``Канал 4`` Нажмите **ОК**.
 
 .. figure:: _static/tut_raster_bands_ru.png
    :name: tut_raster_bands_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Мы заменили стандартный красный канал на канал ближней инфракрасной области, и визуализация растра существенно изменилась.
 
 .. figure:: _static/tut_raster_nir_ru.png
    :name: tut_raster_nir_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Откройте веб-карту в браузере и активируйте слой Sentinel 2. Он выглядит так же, как и раньше.
 
 .. figure:: _static/tut_raster_webmap_ru.png
    :name: tut_raster_webmap_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Вернитесь в QGIS, выберите слой *Sentinel 2* в панели NextGIS Connect.
 
 .. figure:: _static/tut_raster_select_ru.png
    :name: tut_raster_select_pic
    :align: center
-   :width: 12cm
+   :width: 9cm
 
 Теперь вызовите контекстное меню слоя в панели слоёв и нажмите **NextGIS Connect --> Обновить стиль слоя**.
 
 .. figure:: _static/tut_update_r_style_ru.png
    :name: tut_update_r_style_pic
    :align: center
-   :width: 14cm
+   :width: 18cm
 
 Снова отройкте веб-карту в браузере — стиль слоя изменился. 
 
 .. figure:: _static/tut_raster_webmap_nir_ru.png
    :name: tut_raster_webmap_nir_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 NextGIS Web может обрабатывать многоканальные растры со стилями QGIS любой сложности.
 
@@ -435,9 +435,9 @@ NextGIS Web может обрабатывать многоканальные р�
 .. figure:: _static/tut_digitizing_ru.png
    :name: tut_digitizing_pic
    :align: center
-   :width: 16cm
+   :width: 10cm
 
-Добавим новое кафе в парке. Кликните левой кнопкой мыши на подходящее место на карте, затем заполните одно поле: AMENITY=``cafe``. Нажмите **ОК**.
+Добавим новую информационную табличку в парке. Кликните левой кнопкой мыши на подходящее место на карте, затем заполните одно поле: TOURISM=``information``. Нажмите **ОК**.
 
 .. figure:: _static/tut_new_point_ru.png
    :name: tut_new_point_pic
@@ -449,14 +449,14 @@ NextGIS Web может обрабатывать многоканальные р�
 .. figure:: _static/tut_qgis_stop_edit_ru.png
    :name: tut_qgis_stop_edit_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 После того, как вы выйдете из режима редактирования, синхронизация запустится автоматически. Созданный объект будет отправлен на сервер. Перейдите в браузер, чтобы увидеть его на веб-карте.
 
 .. figure:: _static/tut_added_on_webmap_ru.png
    :name: tut_added_on_webmap_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Несколько человек могут одновременно подключаться к одному серверу с разных устройств и редактировать данные одновременно. Наш стек предоставляет готовое решение для совместной оцифровки и редактирования данных в QGIS.
 
