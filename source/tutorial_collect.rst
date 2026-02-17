@@ -200,7 +200,7 @@ A dialog appears that prompts you to select the attribute of the layer to which 
 
 
 
-Currently we don’t have any attributes yet, so click on the **Add** button.  For the new fiels set up the parameters:
+Currently we don’t have any attributes yet, so click on the **Add** button.  For the new field set up the parameters:
 
 * Keyname = ``species``,
 * Display name = ``Species``,
