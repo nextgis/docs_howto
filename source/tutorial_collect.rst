@@ -399,7 +399,7 @@ After authorization you can see a list of projects assigned to you. Select **Tre
    :align: center
    :width: 8cm
 
-Inside the project you see the lis of layers. This project contains only one - *Trees*. 
+Inside the project you see a list of layers. This project contains only one - *Trees*. 
 
 Go to the nearest tree and click **USING GPS** - it records the current GPS coordinates of your mobile phone and opens the form to enter the other information. 
 
