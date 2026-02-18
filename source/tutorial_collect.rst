@@ -346,7 +346,7 @@ On the Project tab enter the username and password of Web GIS administrator, use
    :align: center
    :width: 20cm
 
-On the Items tab determine the contents of yur project. Which data should the field workers gather? Which layer should they see as a reference on the map? Click **+ Layer** button and select ``Trees`` layer.
+On the Items tab determine the contents of your project. Which data should the field workers gather? Which layer should they see as a reference on the map? Click **+ Layer** button and select ``Trees`` layer.
 
 .. figure:: _static/collect_project_items_en.png
    :name: collect_project_items_pic
