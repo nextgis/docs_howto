@@ -380,7 +380,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 Запустите приложение. Авторизуйтесь, используя адрес электронной почты и пароль своего NextGIS ID.
 
-.. figure:: _static/collect_sign_in_ru.png
+.. figure:: _static/collect_sign_in_ru.jpg
    :name: collect_sign_in_pic
    :align: center
    :width: 8cm
