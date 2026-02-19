@@ -368,6 +368,7 @@ On the Collectors tab activate the check box near your email - it adds you as a 
    :align: center
    :width: 20cm
 
+Click **Create** to finish.
 
 That’s it. A project has been created and field workers could start their work.
 
