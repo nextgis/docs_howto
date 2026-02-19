@@ -85,7 +85,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_create_group_ru.png
    :name: collect_create_group_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
 Нажмите кнопку **Создать**. После успешного создания ресурса откроется его страница.
 
@@ -94,7 +94,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_group_result_ru.png
    :name: collect_group_result_pic
    :align: center
-   :width: 14cm
+   :width: 16cm
 
 Группа *Сбор данных* находится внутри *Основной группы ресурсов*, где мы её создали. Ресурс-родитель показан над наименованием ресурса.
 
@@ -117,14 +117,14 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_create_empty_layer_ru.png
    :name: collect_create_empty_layer_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
 Интерфейс вкладки изменится. Выберите в качестве типа геометрии **Точка**.
 
 .. figure:: _static/tutorial_empty_layer_geom_ru.png
    :name: tutorial_empty_layer_geom_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
 
 На вкладке **Ресурс** задайте имя для нового слоя, например ``Деревья``, и нажмите кнопку **Создать**.
@@ -156,11 +156,10 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 Откроется диалог создания формы.
 
-.. figure:: _static/collect_design_from_ru.png
-   :name: collect_design_from_pic
+.. figure:: _static/collect_designer_interface_ru.png
+   :name: collect_designer_interface_pic
    :align: center
    :width: 20cm
-
 
 В этом конструкторе вы можете создать форму, которую сборщики увидят в приложении. 
 
@@ -170,10 +169,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 * Посередине: макет формы, которая будет отображаться на экране телефона; 
 * Справа: настройки выбранного элемента.
 
-.. figure:: _static/collect_designer_interface_ru.png
-   :name: collect_designer_interface_pic
-   :align: center
-   :width: 20cm
+
 
 Перетащите элемент **Надпись** в среднюю часть. Оно появится в макете, по умолчанию это надпись "Текст". 
 
@@ -291,7 +287,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_open_control_panel_ru.png
    :name: collect_open_control_panel_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 
 Перейдите в раздел **Проекты Collector**.
@@ -299,7 +295,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_control_panel_collector_ru.png
    :name: collect_control_panel_collector_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 Здесь можно редактировать список пользователей, добавленных в вашу Веб ГИС в качестве сборщиков данных. Любой пользователь, имеющий аккаунт NextGIS ID, может быть добавлен как сборщик данных, даже если он не входит в вашу `команду <https://docs.nextgis.com/docs_ngcom/source/teams.html>`_.
 
@@ -325,7 +321,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 Шаг 6/6 Создание проекта Collector
 ----------------------------------
 
-Вернитесь в группу *Сбор данных* и создайте новый ресурс **Векторный слой**.
+Вернитесь в группу *Сбор данных* и создайте новый ресурс **Проект Collector**.
 
 .. figure:: _static/collector_select_project_ru.png
    :name: collector_select_project_pic
@@ -337,14 +333,14 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_project_name_ru.png
    :name: collect_project_name_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
 На вкладке "Проект" введите логин и пароль администратора Веб ГИС (электронную почту и пароль вашего NextGID ID).
 
 .. figure:: _static/collect_project_settings_ru.png
    :name: collect_project_settings_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
 На вкладке "Элементы" настраивается содержимое проекта. Какие данные должны быть видны сотрудникам, работающим в поле? Какие слои должны отображаться на карте, чтобы они могли сориентироваться? Нажмите **+ Слой** и выберите слой ``Деревья``.
 
@@ -369,7 +365,9 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
    :width: 20cm
 
 
-На этом всё. Проект создан, теперь можно начинать работу в поле.
+На этом всё. Нажмите **Создать**.
+
+Проект создан, теперь можно начинать работу в поле.
 
 В этом проекте в роли сборщика выступите вы сами.
 
