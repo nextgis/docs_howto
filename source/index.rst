@@ -8,6 +8,7 @@
 
    tutorial_webgis
    tutorial_qgis
+   tutorial_collect
    command_prompt
    egrn_source
    excel
