@@ -121,7 +121,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 Интерфейс вкладки изменится. Выберите в качестве типа геометрии **Точка**.
 
-.. figure:: _static/tutorial_empty_layer_geom_ru.png
+.. figure:: _static/collect_empty_layer_geom_ru.png
    :name: tutorial_empty_layer_geom_pic
    :align: center
    :width: 16cm
@@ -231,6 +231,8 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
    :name: collect_dropdown_options_pic
    :align: center
    :width: 14cm
+
+Добавленные варианты сохраняются автоматически.
 
 Теперь добавим простое поле, в котором можно поставить галочку. Перетащите в макет элемент **Флажок**. В окне "Привязка данных" добавьте новое поле со следующими параметрами:
 
@@ -433,7 +435,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_feature_count_ru.png
    :name: collect_feature_count_pic
    :align: center
-   :width: 20cm
+   :width: 18cm
 
 
 
@@ -442,20 +444,20 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 .. figure:: _static/collect_preview_layer_ru.png
    :name: collect_preview_layer_pic
    :align: center
-   :width: 20cm
+   :width: 18cm
 
 Также вы можете посмотреть значения атрибутов в таблице объектов:
 
 .. figure:: _static/collect_feature_table_ru.png
    :name: collect_feature_table_pic
    :align: center
-   :width: 16cm
+   :width: 18cm
 
 Откройте предпросмотр объекта, чтобы увидеть прикреплённые фотографии.
 
 .. figure:: _static/collect_feature_preview_ru.png
    :name: collect_feature_preview_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
 Это позволяет в реальном времени отслеживать процесс сбора данных. Слой, в который записываются данные, можно использовать как любой другой - добавлять на веб-карту, публиковать в форме тайлов или по протоколам OGC, скачивать, добавлять в QGIS и т.п.
