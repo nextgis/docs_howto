@@ -33,14 +33,14 @@ NextGIS Web - платформа для хранения, управления �
 
 После регистрации откроется страница аккаунта. Выберите в меню слева пункт **Веб ГИС**. Придумайте название (мы в этом примере будем использовать ngw-quickstart.nextgis.com) и выберите ближайший Центр обработки данных (Москва в этом примере). Затем нажмите **Создать Веб ГИС**.
 
-.. figure:: _static/tutorial_create_wg_ru.png
+.. figure:: _static/tutorial_create_wg_qs_ru.png
    :name: tutorial_create_wg_pic
    :align: center
    :width: 20cm
 
 Когда процесс создания завершится, вид страницы изменится. На ней появится прямая ссылка на вашу новую Веб ГИС.
 
-.. figure:: _static/tutorial_my_wg_ru.png
+.. figure:: _static/tutorial_my_wg_qs_ru.png
    :name: tutorial_my_wg_pic
    :align: center
    :width: 20cm
@@ -176,7 +176,7 @@ NextGIS Web состоит из ресурсов. Папки (группы), с�
 .. figure:: _static/tracker_current_location_ru.png
    :name: tracker_current_location_pic
    :align: center
-   :width: 20cm
+   :width: 15cm
 
 Нажимая на другие кнопки, вы можете включить отображение линии трека и точек, записанных с заданным интервалом.
 
@@ -207,7 +207,7 @@ NextGIS Web состоит из ресурсов. Папки (группы), с�
 .. figure:: _static/trackers_reports_ru.png
    :name: trackers_reports_pic
    :align: center
-   :width: 10cm
+   :width: 8cm
 
 Здесь можно создавать разные виды отчётов. 
 
