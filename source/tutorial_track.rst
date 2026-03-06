@@ -190,7 +190,7 @@ NextGIS Web состоит из ресурсов. Папки (группы), с�
 .. figure:: _static/track_hover_details_ru.png
    :name: track_hover_details_pic
    :align: center
-   :width: 10cm
+   :width: 20cm
 
 Записав несколько треков, вы можете проанализировать их путём `создания отчётов <https://docs.nextgis.ru/docs_howto/source/tutorial_track.html#report>`_ или `экспортировать треки <https://docs.nextgis.ru/docs_howto/source/tutorial_track.html#export>`_ в формате GPX, чтобы поделиться ими или сохранить как резервную копию.
 
@@ -215,7 +215,7 @@ NextGIS Web состоит из ресурсов. Папки (группы), с�
 
 Отметьте единственный доступный трекер, затем нажмите **Построить отчёт**.
 
-.. figure:: _static/report_average_speed_ru.png
+.. figure:: _static/report_average_speed_2_ru.png
    :name: report_average_speed_pic
    :align: center
    :width: 20cm
