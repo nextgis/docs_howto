@@ -9,6 +9,7 @@
    tutorial_webgis
    tutorial_qgis
    tutorial_collect
+   tutorial_track
    command_prompt
    egrn_source
    excel
