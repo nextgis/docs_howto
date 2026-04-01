@@ -48,7 +48,9 @@ In this step-by-step tutorial you will learn how to publish your QGIS project to
 
 :download:`Download tutorial data <https://nextgis.com/tutorials/seamless_qgis_integration.zip>` (source: `OpenStreetMap <https://www.openstreetmap.org/>`_, `data.nextgis.com <http://data.nextgis.com>`_, `Copernicus <https://browser.dataspace.copernicus.eu/>`_)
 
+
 .. seealso:: `Store, manage and publish your spatial data <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html>`_
+
 
 Publish your QGIS project online
 
@@ -66,6 +68,15 @@ Use QGIS to edit data stored in Web GIS
 7. `Update layer styles at the Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#vector_style>`_ 
 8. `Update raster layer style on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#raster_style>`_
 9. `Edit data from QGIS and explore results at the Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#edit_data>`_
+
+
+You can see the detailed instructions below or watch a video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/mDbkUWVhs_M?si=x_zsHyECKGUGjfYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/mDbkUWVhs_M?si=4UOhAYuEg-AUKwkn>`_.
 
 .. _account:
 
