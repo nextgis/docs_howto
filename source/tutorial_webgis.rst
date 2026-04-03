@@ -112,7 +112,7 @@ This page has the information about the layer:
 
 .. figure:: _static/tutorial_vlayer_result_en.png
 
-In the **External access** section you'll find an automatically generated URL that allows to access the layer via MVT vector tiles. Right away you can connect this data to a Web app or add it to QGIS using this link. `More on MVT tiles <https://docs.nextgis.com/docs_ngweb/source/external.html>`_.
+In the **External access** section you'll find an automatically generated URL that allows to access the layer via MVT vector tiles. Right away you can connect this data to a Web app or add it to QGIS using this link. `More on MVT tiles <https://docs.nextgis.com/docs_ngweb/source/services.html#mvt-vector-tiles>`_.
 
 
 
@@ -149,7 +149,7 @@ Upload the file called ``bicycle_roads.qml`` from the tutorial dataset. Then cli
 
 The vector style is created and you are redirected to its page. Click **Preview** in the menu on the right to see how the style looks.
 
-In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.com/docs_ngweb/source/external.html#tms>`_
+In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.com/docs_ngweb/source/services.html#tms-service>`_
 
 Now you can upload another type of layer or skip to the `Web Map creation <https://docs.nextgis.com/docs_howto/source/tutorial_webgis.html#step-6-6-publish-web-map>`_.
 
