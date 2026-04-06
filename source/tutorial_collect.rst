@@ -339,7 +339,7 @@ On the Resource tab set the name of the project that the data collectors would s
    :align: center
    :width: 20cm
 
-On the Project tab enter the username and password of Web GIS administrator, use your own credentials - the email you used to create NextGIS ID and its password.
+On the Project tab, leave all settings at their default values.
 
 .. figure:: _static/collect_project_settings_en.png
    :name: collect_project_settings_pic
