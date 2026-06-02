@@ -189,7 +189,7 @@ NextGIS Web состоит из ресурсов. Слои, веб-карты, �
 
 Появится диалог, в котором нужно выбрать, в какой атрибут слоя будут сохраняться данные, введённые в это поле.
 
-.. figure:: _static/collect_dropdown_new_ru.png
+.. figure:: _static/collect_dropdown_new_ru_2.png
    :name: collect_dropdown_new_pic
    :align: center
    :width: 20cm
