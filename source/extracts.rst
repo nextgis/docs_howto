@@ -24,7 +24,7 @@
 
    * Проекты для QGIS есть у всех продуктов при заказе форматов **Geopackage, Shape, GeoJSON**.
    * Проекты для ArcMap и ArcGIS Pro есть у всех продуктов при заказе форматов **Geodatabase, Shape**.
-   * Проект для Mapinfo есть только у продукта base/osm при заказе формата **Mapinfo TAB**.
+   * Проект для MapInfo есть только у продукта base/osm при заказе формата **MapInfo TAB**.
 
 * Папка с иконками ``svg``. Эта папка включается для данных, использующих векторные маркеры в формате SVG. В стилях слоёв задан относительный путь к папке.
 
@@ -51,8 +51,11 @@
 * `Дороги AI <https://docs.google.com/spreadsheets/d/e/2PACX-1vSx74nB_TPHRYNZTBFSRK5eEi_oxEBFCShT30VRYmk_sisD4qVcwRb-5F_IWiP2x-0pRGFWH8piHnWC/pubhtml>`_
 * `Overture <https://docs.google.com/spreadsheets/d/e/2PACX-1vRJd2RsUimlo1GegSpnJScUdi0kImAJYumnWwbqyb6B2JWMwT9BAyIcIybsqQEBqSllCSNWviGJI9fC/pubhtml?gid=0&single=true>`_
 * `Ландшафты <https://docs.google.com/spreadsheets/d/e/2PACX-1vRFm3v9NE3x62gAJ2fxMg-zn_i4lJHgplLJk6u_EeAl4G5VAWU095yFc7-omUIjjDkhdeAHrzkQ_em1/pubhtml>`_
+* `Точки интереса <https://docs.google.com/spreadsheets/d/e/2PACX-1vReULsdVK26BuLkmw6MweUc2y0qlVVAkdk6ywFlHqy1g9SEAnhro8oiKsFY0fOqirxItrwePbXMO_Vr/pubhtml?gid=1462217079&single=true>`_
 * Космосъёмка - трёхканальное цветное изображение в формате RGB, других атрибутов не имеет
 * `Реформа ЖКХ <https://docs.google.com/spreadsheets/d/e/2PACX-1vS32AGvxMh3_Yxuq_duKTIzQFfrJ88iEBciyn8ruhgGxAmyj2bcksH6JfoOs5p13YfZhPXAEqzRa783/pubhtml>`_
 * `ООПТ <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ11744S-kcUBR9gTOGv8ylhTVn2iEQzGA6m9dM0cEaKNEc0-CCm7fZTUPeftUeoms1cCf4uc7e3pjF/pubhtml>`_
 * `Роснедра <https://docs.google.com/spreadsheets/d/e/2PACX-1vTDwgzllu93JNaL60BYHyTrirCqUigFwKYatMosvABIr8rVVHfmvHAaAy0D2gXFOw1Qcl2A2RN4O374/pubhtml>`_
 * `Наследие <https://docs.google.com/spreadsheets/d/e/2PACX-1vRugZizn-rKnihRS6UYLulQUQbOBrUnkJQtiuGTWwwD39SmY6M5oLa94GD1Oww3eRf50_XM6atyP1Xw/pubhtml>`_
+* `Тайлы <https://data.nextgis.com/ru/region/custom/tiles/?format=png>`_ - не имеют атрибутов, изображения в формате PNG
+* `Карта для печати <https://data.nextgis.com/ru/region/custom/printmap/>`_ - не имеет атрибутов, к выгрузке прилагается легенда с условными обозначениями
