@@ -193,7 +193,7 @@ Now we need to add the field where collectors enter the data. For this first fie
 
 A dialog appears that prompts you to select the attribute of the layer to which the data entered in this field is to be written.
 
-.. figure:: _static/collect_dropdown_new_en.png
+.. figure:: _static/collect_dropdown_new_en_2.png
    :name: collect_dropdown_new_pic
    :align: center
    :width: 20cm
