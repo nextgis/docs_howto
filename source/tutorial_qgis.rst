@@ -64,10 +64,10 @@ Result: `Explore the Web Map and resources <https://docs.nextgis.com/docs_howto/
 
 Use QGIS to edit data stored in Web GIS 
 
-6. `Connect to Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#download>`_
-7. `Update layer styles at the Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#vector_style>`_ 
-8. `Update raster layer style on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#raster_style>`_
-9. `Edit data from QGIS and explore results at the Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#edit_data>`_
+6. `Connect to Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#howto-qgis-download>`_
+7. `Update layer styles at the Web Map from QGIS <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#howto-qgis-vector-style>`_ 
+8. `Update raster layer style on a Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#howto-qgis-raster-style>`_
+9. `Edit data from QGIS and explore results at the Web Map <https://docs.nextgis.com/docs_howto/source/tutorial_qgis.html#howto-qgis-edit-data>`_
 
 
 You can see the detailed instructions below or watch a video:
@@ -284,7 +284,7 @@ You can work with the uploaded vector and raster layers independently from the W
 
 What if you'd like to edit the uploaded layers in QGIS? Let's see how to do it.
 
-.. _download:
+.. _howto_qgis_download:
 
 Connect to Web Map from QGIS
 -----------------------------------
@@ -318,7 +318,7 @@ They are now linked to the server storage. If the data is updated on the server 
 
 One of the great uses of it is updating styles on the Web Map.
 
-.. _vector_style:
+.. _howto_qgis_vector_style:
 
 Modify layer styles on the Web Map from QGIS
 ---------------------------------------------
@@ -356,7 +356,7 @@ Go back to the web browser with the Web Map opened (reopen it from NextGIS Conne
 
 You can modify raster styles as well. 
 
-.. _raster_style:
+.. _howto_qgis_raster_style:
 
 Update raster layer style on a Web Map
 -----------------------------------------
@@ -419,7 +419,7 @@ Open the Web Map again — layer style has changed.
 
 NextGIS Web can handle multiband rasters with QGIS styles of any complexity.
 
-.. _edit_data:
+.. _howto_qgis_edit_data:
 
 Edit data from QGIS and explore results on the Web Map
 -------------------------------------------------------
