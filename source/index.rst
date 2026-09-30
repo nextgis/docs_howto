@@ -19,6 +19,7 @@
    bars_user
    ogr2ogr_windows
    geocoder_onprem
+   eeko
 
 
 
