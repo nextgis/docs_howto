@@ -10,6 +10,7 @@
    tutorial_qgis
    tutorial_collect
    tutorial_track
+   quick_open_layer
    command_prompt
    egrn_source
    excel
