@@ -11,6 +11,8 @@
    tutorial_collect
    tutorial_track
    quick_open_layer
+   quick_add_mobile
+   quick_webmap
    command_prompt
    egrn_source
    excel
