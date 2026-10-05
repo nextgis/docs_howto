@@ -20,6 +20,10 @@
 
 * **Добавьте** подключение к вашей Веб ГИС. Нажмите на кнопку настроек (шестеренка на панели). В разделе "Соединения" добавьте **новое**. Введите адрес вашей Веб ГИС, адрес электронной почты, на который вы регистрировались, и пароль. 
 
+.. admonition:: Ещё нет своей Веб ГИС?
+
+   `Как быстро создать Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_
+
 .. figure:: _static/quick_webmap_connect_ru.png
    :name: quick_webmap_connect_pic
    :align: center
