@@ -18,7 +18,11 @@ How to create an interactive Web Map quickly?
 
 * Install **NextGIS Connect** plugin (top menu Plugins - Manage and install plugins - enter *NextGIS Connect* in the search bar - Install). 
 
-* **Add** connection to your Web GIS. Click on the gear icon to open Settings. In the Connection section click **New**. Enter the URL of your Web GIS, email you used to sign up and password. 
+* Add connection to your Web GIS. Click on the gear icon to open Settings. In the Connection section click **New**. Enter the URL of your Web GIS, email you used to sign up and password. 
+
+.. admonition:: Don't have a Web GIS yet?
+
+   `How to create your Web GIS in a few clicks <https://docs.nextgis.com/docs_ngcom/source/create_webgis.html>`_
 
 .. figure:: _static/quick_webmap_connect_en.png
    :name: quick_webmap_connect_pic
