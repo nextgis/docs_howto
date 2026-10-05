@@ -42,3 +42,4 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
    tutorial_track
    quick_open_layer
    quick_webmap
+   quick_add_mobile
