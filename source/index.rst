@@ -40,3 +40,5 @@ Download a starter data kit and follow detailed step-ty-step instructions to get
    tutorial_qgis
    tutorial_collect
    tutorial_track
+   quick_open_layer
+   quick_webmap
