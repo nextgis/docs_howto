@@ -20,3 +20,9 @@
    :name: open_map5
    :align: center
    :width: 20cm
+
+.. admonition:: Остались вопросы?
+
+  * `Напишите в поддержку <https://my.nextgis.com/support>`_ из личного кабинета
+  * Запишитесь на наш курс `Фундаментальный QGIS <https://nextgis.skillspace.ru/l/qgis>`_: короткие ёмкие видео, практика с данными
+  * `Подробное руководство <https://docs.nextgis.ru/docs_ngqgis/source/index.html>`_ по работе с NextGIS QGIS
