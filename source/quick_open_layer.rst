@@ -8,7 +8,7 @@
 * Откройте NextGIS QGIS и перетащите в него файл.
 
 .. figure:: _static/quick_open_dragndrop_ru.png
-   :name: open_map3
+   :name: quick_open_dragndrop_pic
    :align: center
    :width: 20cm
 
@@ -17,7 +17,7 @@
 * Для просмотра атрибутов определенного слоя, щелкните по нему правой кнопкой мыши и в контекстном меню выберите «Открыть таблицу атрибутов». Откроется окно с атрибутами (характеристиками) объектов, принадлежащих слою. 
 
 .. figure:: _static/quick_open_attr_table_ru.png
-   :name: open_map5
+   :name: quick_open_attr_table_pic
    :align: center
    :width: 20cm
 
