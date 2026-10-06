@@ -9,7 +9,7 @@ How to open a layer in Mobile
    * NGRC
    * Tiles in ZIP-archive
 
-* Install NextGIS Mobile from `Google Play <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_ or from an`APK-file <https://my.nextgis.com/software>`_.
+* Install NextGIS Mobile from `Google Play <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_ or from an `APK-file <https://my.nextgis.com/software>`_.
 * Save the data layer to your device. If it is not a tile archive, make sure to **unpack** the data and get it from the archive.
 * Run NextGIS Mobile app. Open the Layer tree panel |ic_layer_tree|, tap "Add geodata" |ic_add_layer| and select **Open local**.
 
