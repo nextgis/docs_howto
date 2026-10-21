@@ -10,6 +10,7 @@
    tutorial_qgis
    tutorial_collect
    tutorial_track
+   tutorial_molusce
    quick_open_layer
    quick_add_mobile
    quick_webmap
