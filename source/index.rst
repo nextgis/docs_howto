@@ -53,6 +53,7 @@
    quick_open_layer
    quick_add_mobile
    quick_webmap
+   quick_data_collection
    command_prompt
    egrn_source
    excel
