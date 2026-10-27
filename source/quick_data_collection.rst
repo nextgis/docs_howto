@@ -1,0 +1,81 @@
+Сбор данных
+===========
+
+Чтобы начать сбор данных в поле при помощи мобильного приложения NextGIS Mobile:
+
+* `Шаг 1. Создайте слой в Веб ГИС <https://docs.nextgis.ru/docs_howto/source/quick_data_collection.html#q-ngm-create-layer>`_
+* `Шаг 2. Создайте в нём форму <https://docs.nextgis.ru/docs_howto/source/quick_data_collection.html#q-ngm-create-form>`_
+* `Шаг 3. Загрузите слой в мобильное <https://docs.nextgis.ru/docs_howto/source/quick_data_collection.html#q-ngm-add>`_
+
+.. _q_ngm_create_layer:
+
+Шаг 1. Создание слоя
+--------------------
+
+* Откройте Веб ГИС, зайдите в папку и нажмите **Создать ресурс**.
+* Выберите **Векторный слой**.
+* Выберите вариант "Создать пустой слой".
+* Выберите нужный тип геометрии: точка, линия или полигон.
+* Нажмите **Создать**.
+
+ngw_create_vector_layer_blank_ru.png
+
+.. figure:: _static/ngw_create_vector_layer_blank_ru.png
+   :name: ngw_create_vector_layer_blank_pic
+   :align: center
+   :width: 16cm
+
+   Создание пустого векторного слоя
+
+.. note:: Если у вас уже есть слой, в который вы хотите собирать данные, можете использовать его.
+
+.. _q_ngm_create_form:
+
+Шаг 2. Создание формы
+----------------------
+
+* Внутри слоя нажмите **Создать ресурс** и выберите **Форма**.
+
+* В конструкторе формы слева находится панель, которая содержит в себе список всех доступных элементов которые можно создать на форме.
+* Чтобы **добавить элемент** на форму, перетащите его мышью в центральную часть конструктора - превью экрана устройства.
+
+.. figure:: _static/form_build_ru.png
+   :name: form_build_pic
+   :align: center
+   :width: 20cm
+
+   Добавление элемента
+
+* Создайте поле для элемента: задайте его название и тип данных.
+
+.. figure:: _static/form_add_field_ru.png
+   :name: form_add_field_pic
+   :align: center
+   :width: 12cm
+
+   Создание поля для элемента
+
+* Чтобы добавить подписи для полей, используйте элемент "Надпись".
+
+`Подробнее о настройках элементов <https://docs.nextgis.ru/docs_ngweb/source/form_elements.html#form-elements>`_.
+
+* Нажмите **Создать**.
+
+.. _q_ngm_add:
+
+Шаг 3. Добавление слоя в мобильное приложение
+----------------------------------------------
+
+* В Веб ГИС вернитесь к слою, нажав на его название. Скопируйте ссылку на слой.
+
+* Откройте приложение NextGIS Mobile. Авторизуйтесь, введя адрес электронной почты NextGIS ID.
+* Откройте дерево слоёв (три полоски), нажмите квадрат с плюсом и выберите **Открыть по ссылке**. Вставьте ссылку на слой.
+
+.. figure:: _static/ngm_layer_tree_add_url_ru.png
+   :name: ngm_layer_tree_add_url_pic
+   :align: center
+   :width: 9cm
+
+   Добавление слоя по ссылке
+
+Можно начать сбор данных. `Как добавить объекты в мобильном приложении <https://docs.nextgis.ru/docs_ngmobile/source/editing.html#ngmobile-add-geometry>`_.
