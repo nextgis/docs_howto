@@ -10,7 +10,7 @@ We'll use a Georeferencer tool to generate a new file in GeoTIFF format, a geore
    :local:
    :depth: 2
 
-:download:`Download tutorial data <https://nextgis.com/tutorials/_.zip>` (source: `U.S. Geological Survey <https://www.usgs.gov/>`_)
+:download:`Download tutorial data <https://nextgis.com/tutorials/georeference_topo.zip>` (source: `U.S. Geological Survey <https://www.usgs.gov/>`_)
 
 .. _topo_get_coord:
 
@@ -199,7 +199,9 @@ Add a familiar basemap using NextGIS QuickMapServices plugin. Compare the georef
    Accurately georeferenced image
 
 
+.. seealso:: 
 
+  `How to share your map online <https://docs.nextgis.com/docs_howto/source/quick_webmap.html>`_
 
 
 
